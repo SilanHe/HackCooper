@@ -21,13 +21,10 @@
 		<ListView
 				x:Name="Schedule"
 				ItemTemplate="{StaticResource CellBlock}"
-				ItemsSource="{Binding Schedule}"
+				ItemsSource="{Binding ByDaySchedule}"
 				HorizontalOptions="End"
-				ItemTapped="OnItemTapped"
+				ItemTapped=""
 				>
-
-
-
 		</ListView>
 	</RelativeLayout>
 

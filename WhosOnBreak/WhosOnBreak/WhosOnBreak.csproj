@@ -67,6 +67,8 @@
     <Compile Include="ViewCells\BusyViewCell.xaml.cs">
       <DependentUpon>BusyViewCell.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\TimeCellViewModel.cs" />
+    <Compile Include="Models\TimeCellModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

@@ -10,7 +10,6 @@ namespace WhosOnBreak
 		public SchedulePage()
 		{
 
-			//reu
 
 			InitializeComponent();
 			BindingContext = new SchedulePageViewModel(this);

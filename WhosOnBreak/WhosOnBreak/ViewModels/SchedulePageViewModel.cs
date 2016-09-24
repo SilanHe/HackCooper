@@ -24,7 +24,7 @@ namespace WhosOnBreak
 
 		public string Name
 		{
-			get { return schedulePageModel.Name}
+			get { return schedulePageModel.Name;}
 			set { schedulePageModel.Name = value; RaisePropertyChanged();}
 				
 		}

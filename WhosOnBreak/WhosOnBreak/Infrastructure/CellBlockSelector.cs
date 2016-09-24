@@ -18,10 +18,19 @@ namespace WhosOnBreak
 
 		protected override DataTemplate OnSelectTemplate(object item, BindableObject container)
 		{
-			var timeCell = item as MessageViewModel;
+			var timeCell = item as TimeCellModel;
+
 			if (timeCell == null)
 				return null;
-			return messageVm.IsIncoming ? this.incomingDataTemplate : this.outgoingDataTemplate;
+			else if (timeCell.IsBreak)
+				return this.breakDataTemplate;
+			else if (timeCell.IsCommon)
+				return this.breakDataTemplate;
+			else
+				return this.busyDataTemplate;
+			
+				
+				
 		}
 
 		private readonly DataTemplate breakDataTemplate;
