@@ -18,7 +18,7 @@ namespace WhosOnBreak
 		public bool IsBreak
 		{
 			get { return timeCellModel.IsBreak;}
-			set { timeCellModel.IsBreak = value; RaisePropertyChanged(); }
+			set { timeCellModel.IsBreak = value; RaisePropertyChanged(); RaisePropertyChanged("IsWhat"); }
 		}
 
 		public bool IsCommon
@@ -30,6 +30,18 @@ namespace WhosOnBreak
 		public bool IsBusy
 		{
 			get { return !(timeCellModel.IsCommon || timeCellModel.IsBreak);}
+		}
+		public int IsWhat
+		{
+			get
+			{
+				if (IsBreak && IsCommon)//isBreak=true and IsCommon=true
+					return 2;
+				else if (IsBreak)//isBreak=true but IsCommon=false
+					return 1;
+				else//IsBreak=false and IsCommon=false
+					return 0;
+			}
 		}
 
 

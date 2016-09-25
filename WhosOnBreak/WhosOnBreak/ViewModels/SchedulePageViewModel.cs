@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using Xamarin.Forms;
 using System.Windows.Input;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace WhosOnBreak
 {
@@ -56,15 +57,24 @@ namespace WhosOnBreak
 			set { schedulePageModel.OneDay = value; RaisePropertyChanged();}
 		}
 
-		public void FillDay(ObservableCollection<TimeCellViewModel> daySched, List<double> dayList)
+		public void FillDay(ObservableCollection<TimeCellViewModel> daySched, List<double> dayList, List<double>FriendList)
 		{
 
 			//algorithm to populate the list of timecellviewmodels which are used in the schedule page
+			//UserModelJson test = await App.dataManager.GetUserAsync(App.UserRepo.GetUser().ApiId + "");
 
 			for (double i = 0; i / 2 < 24; i++)
 			{
-				
-				if (dayList.Contains(i/2))
+				Debug.WriteLine(FriendList.Contains(i / 2) + " " + dayList.Contains(i / 2));
+				if (FriendList.Contains(i/2) && dayList.Contains(i / 2))
+				{
+					daySched.Add(new TimeCellViewModel(new TimeCellModel())
+					{
+						Time = (i / 2),
+						IsBreak = true,
+						IsCommon = true
+					});
+				}else if (dayList.Contains(i/2))
 					daySched.Add(new TimeCellViewModel(new TimeCellModel())
 					{
 						Time = (i / 2),
@@ -104,31 +114,67 @@ namespace WhosOnBreak
 			FillDayN(DayOfWeek);
 		}
 
-		public void FillDayN(int dayOfWeek)
+		public void FillDayN(int dayOfWeek, bool isFriendSchedule=false)
 		{
 			OneDay.Clear();
+			List<double> friendS=new List<double>();
 			switch (dayOfWeek)
 			{
 				case (1):
-					FillDay(OneDay, schedulePageModel.Mon);
+					
+					if (FriendsScheduleHelper.Friend.Mon !=null)
+						friendS = FriendsScheduleHelper.Friend.Mon;
+					else
+						friendS.Add(25);
+					FillDay(OneDay, schedulePageModel.Mon, friendS);
 					break;
 				case (2):
-					FillDay(OneDay, schedulePageModel.Tue);
+					
+					if (FriendsScheduleHelper.Friend.Mon != null)
+						friendS = FriendsScheduleHelper.Friend.Tue;
+					else
+						friendS.Add(25);
+					FillDay(OneDay, schedulePageModel.Tue, friendS);
 					break;
 				case (3):
-					FillDay(OneDay, schedulePageModel.Wed);
+					
+					if (FriendsScheduleHelper.Friend.Mon != null)
+						friendS = FriendsScheduleHelper.Friend.Wed;
+					else
+						friendS.Add(25);
+					FillDay(OneDay, schedulePageModel.Wed, friendS);
 					break;
 				case (4):
-					FillDay(OneDay, schedulePageModel.Thu);
+					
+					if (FriendsScheduleHelper.Friend.Mon != null)
+						friendS = FriendsScheduleHelper.Friend.Thu;
+					else
+						friendS.Add(25);
+					FillDay(OneDay, schedulePageModel.Thu, friendS);
 					break;
 				case (5):
-					FillDay(OneDay, schedulePageModel.Fri);
+					
+					if (FriendsScheduleHelper.Friend.Mon != null)
+						friendS = FriendsScheduleHelper.Friend.Fri;
+					else
+						friendS.Add(25);
+					FillDay(OneDay, schedulePageModel.Fri, friendS);
 					break;
 				case (6):
-					FillDay(OneDay, schedulePageModel.Sat);
+					
+					if (FriendsScheduleHelper.Friend.Mon != null)
+						friendS = FriendsScheduleHelper.Friend.Sat;
+					else
+						friendS.Add(25);
+					FillDay(OneDay, schedulePageModel.Sat, friendS);
 					break;
 				case (7):
-					FillDay(OneDay, schedulePageModel.Sun);
+					
+					if (FriendsScheduleHelper.Friend.Mon != null)
+						friendS = FriendsScheduleHelper.Friend.Sund;
+					else
+						friendS.Add(25);
+					FillDay(OneDay, schedulePageModel.Sun, friendS);
 					break;
 			}
 		}

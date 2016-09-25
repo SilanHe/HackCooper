@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{DED46472-5732-4275-B95C-5E6975C034E0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WhosOnBreak/Views/FriendsPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WhosOnBreak/Data/RestService.cs">
     <Files>
-      <File FileName="WhosOnBreak/Models/SchedulePageModel.cs" Line="1" Column="1" />
-      <File FileName="WhosOnBreak/ViewModels/SchedulePageViewModel.cs" Line="6" Column="30" />
+      <File FileName="WhosOnBreak/Models/SchedulePageModel.cs" Line="21" Column="29" />
+      <File FileName="WhosOnBreak/ViewModels/SchedulePageViewModel.cs" Line="60" Column="89" />
       <File FileName="iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="WhosOnBreak/Views/SchedulePage.xaml.cs" Line="3" Column="22" />
+      <File FileName="WhosOnBreak/Views/SchedulePage.xaml.cs" Line="18" Column="50" />
       <File FileName="WhosOnBreak/Models/TimeCellModel.cs" Line="1" Column="1" />
-      <File FileName="WhosOnBreak/ViewModels/TimeCellViewModel.cs" Line="1" Column="1" />
+      <File FileName="WhosOnBreak/ViewModels/TimeCellViewModel.cs" Line="19" Column="4" />
       <File FileName="WhosOnBreak/Infrastructure/CellBlockSelector.cs" Line="18" Column="4" />
       <File FileName="WhosOnBreak/ViewCells/TimeViewCell.cs" Line="1" Column="1" />
       <File FileName="WhosOnBreak/ViewCells/BusyViewCell.xaml.cs" Line="7" Column="46" />
@@ -26,7 +26,7 @@
       <File FileName="WhosOnBreak/ViewModels/MainViewModel.cs" Line="1" Column="1" />
       <File FileName="WhosOnBreak/ViewModels/FirstTimeLoginViewModel.cs" Line="1" Column="1" />
       <File FileName="WhosOnBreak/Views/FirstTimeLoginPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="WhosOnBreak/Converters/BreakToColorConverter.cs" Line="1" Column="1" />
+      <File FileName="WhosOnBreak/Converters/BreakToColorConverter.cs" Line="15" Column="41" />
       <File FileName="WhosOnBreak/Converters/DayConverter.cs" Line="1" Column="1" />
       <File FileName="WhosOnBreak/Converters/DayToOCConverter.cs" Line="12" Column="14" />
       <File FileName="WhosOnBreak/Converters/IntToStringConverter.cs" Line="2" Column="21" />
@@ -34,13 +34,15 @@
       <File FileName="WhosOnBreak/ViewModels/AddFriendViewModel.cs" Line="1" Column="14" />
       <File FileName="WhosOnBreak/ViewModels/NotificationsPageViewModel.cs" Line="1" Column="1" />
       <File FileName="WhosOnBreak/SQLiteHelpers/FriendsRepository.cs" Line="1" Column="1" />
-      <File FileName="WhosOnBreak/Views/FriendsPage.xaml.cs" Line="16" Column="51" />
+      <File FileName="WhosOnBreak/Views/FriendsPage.xaml.cs" Line="15" Column="5" />
       <File FileName="WhosOnBreak/SQLiteHelpers/SqlFriendsHelper.cs" Line="1" Column="1" />
       <File FileName="WhosOnBreak/Views/MainMasterDetailPage.xaml.cs" Line="22" Column="32" />
       <File FileName="WhosOnBreak/Views/MainMasterPage.xaml.cs" Line="1" Column="1" />
       <File FileName="WhosOnBreak/Views/NotificationsPage.xaml.cs" Line="1" Column="1" />
       <File FileName="WhosOnBreak/Infrastructure/MasterPageItem.cs" Line="1" Column="1" />
       <File FileName="WhosOnBreak/Models/UserModelJsonUpdate.cs" Line="1" Column="1" />
+      <File FileName="WhosOnBreak/obj/Debug/WhosOnBreak.Views.MainMasterDetailPage.xaml.g.cs" Line="24" Column="1" />
+      <File FileName="WhosOnBreak/Data/RestService.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
