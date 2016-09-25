@@ -6,17 +6,22 @@ namespace WhosOnBreak
 	{
 		public string Name { get; set; }
 
-		public List<float> Mon { get; set; }
-		public List<float> Tue { get; set; }
-		public List<float> Wed { get; set; }
-		public List<float> Thu { get; set; }
-		public List<float> Fri { get; set; }
-		public List<float> Sat { get; set; }
-		public List<float> Sun { get; set; }
+		public List<double> Mon { get; set; }
+		public List<double> Tue { get; set; }
+		public List<double> Wed { get; set; }
+		public List<double> Thu { get; set; }
+		public List<double> Fri { get; set; }
+		public List<double> Sat { get; set; }
+		public List<double> Sun { get; set; }
 
 
 		public SchedulePageModel()
 		{
+			//mock data
+			Mon.Add(8);
+			Mon.Add(8.5);
+			Mon.Add(13);
+			Mon.Add(13.5);
 		}
 
 

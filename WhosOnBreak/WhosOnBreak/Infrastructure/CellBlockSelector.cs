@@ -12,8 +12,6 @@ namespace WhosOnBreak
 			this.breakDataTemplate = new DataTemplate(typeof(BreakViewCell));
 			this.commonDataTemplate = new DataTemplate(typeof(CommonViewCell));
 			this.busyDataTemplate = new DataTemplate(typeof(BusyViewCell));
-
-
 		}
 
 		protected override DataTemplate OnSelectTemplate(object item, BindableObject container)

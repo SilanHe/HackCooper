@@ -6,7 +6,7 @@ namespace WhosOnBreak
 		public TimeCellModel()
 		{
 		}
-		public float FreePeriod { get; set; }
+		public double Time { get; set; }
 
 		public bool IsBreak { get; set;}
 

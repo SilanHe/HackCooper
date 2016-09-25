@@ -8,7 +8,7 @@ namespace WhosOnBreak
 		{
 			InitializeComponent();
 
-			MainPage = new WhosOnBreakPage();
+			MainPage = new SchedulePage();
 		}
 
 		protected override void OnStart()
