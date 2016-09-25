@@ -17,5 +17,10 @@ namespace WhosOnBreak
 		{
 			Friend = await App.dataManager.GetUserAsync(id);
 		}
+
+		public static void ClearFriend()
+		{
+			Friend = new UserModelJson();
+		}
 	}
 }

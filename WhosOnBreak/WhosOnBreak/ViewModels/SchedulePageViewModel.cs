@@ -114,7 +114,7 @@ namespace WhosOnBreak
 			FillDayN(DayOfWeek);
 		}
 
-		public void FillDayN(int dayOfWeek, bool isFriendSchedule=false)
+		public void FillDayN(int dayOfWeek)
 		{
 			OneDay.Clear();
 			List<double> friendS=new List<double>();

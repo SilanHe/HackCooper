@@ -8,6 +8,23 @@ namespace WhosOnBreak
 {
 	public partial class SchedulePage : ContentPage
 	{
+		public SchedulePage()
+		{
+			InitializeComponent();
+			FriendsScheduleHelper.ClearFriend();
+			BindingContext = new SchedulePageViewModel(this);
+			Title = App.UserRepo.GetUser().Name + App.UserRepo.GetUser().ApiId;//user name or your schedule
+			Schedule.ItemTapped += (object sender, ItemTappedEventArgs e) =>
+				{
+					TimeCellViewModel selectedCell = (TimeCellViewModel)e.Item;
+					selectedCell.IsBreak = !selectedCell.IsBreak;
+					// don't do anything if we just de-selected the row
+					//placeholderfix
+					//if (e.Item == null) return;
+					// do something with e.SelectedItem
+					((ListView)sender).SelectedItem = null; // de-select the row
+				};
+		}
 		public SchedulePage(bool isFriendsSchedule = false)
 		{
 			InitializeComponent();
