@@ -112,7 +112,18 @@ namespace WhosOnBreak
 				}
 				else
 				{
-					response = await client.PutAsync(new Uri(RestUrl + "deuces/" + userItem.Id), content);
+					UserModelJsonUpdate test = new UserModelJsonUpdate
+					{
+						Fri = userItem.Fri,
+						Mon = userItem.Mon,
+						Tue = userItem.Tue,
+						Sat = userItem.Sat,
+						Sund = userItem.Sund,
+						Thu = userItem.Thu,
+						Wed = userItem.Wed
+					};
+					var testContent = new StringContent(JsonConvert.SerializeObject(test), Encoding.UTF8, "application/json");
+					response = await client.PutAsync(new Uri(RestUrl + "users/" + App.UserRepo.GetUser().ApiId), testContent);
 				}
 
 				if (response.IsSuccessStatusCode)

@@ -32,13 +32,7 @@
     <EmbeddedResource Include="Views\SchedulePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="ViewCells\BreakViewCell.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ViewCells\CommonViewCell.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ViewCells\BusyViewCell.xaml">
+    <EmbeddedResource Include="ViewCells\TimeViewCell.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\FirstTimeLoginPage.xaml">
@@ -71,15 +65,8 @@
     <Compile Include="Models\SchedulePageModel.cs" />
     <Compile Include="ViewModels\SchedulePageViewModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
-    <Compile Include="Infrastructure\CellBlockSelector.cs" />
-    <Compile Include="ViewCells\BreakViewCell.xaml.cs">
-      <DependentUpon>BreakViewCell.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ViewCells\CommonViewCell.xaml.cs">
-      <DependentUpon>CommonViewCell.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ViewCells\BusyViewCell.xaml.cs">
-      <DependentUpon>BusyViewCell.xaml</DependentUpon>
+    <Compile Include="ViewCells\TimeViewCell.cs">
+      <DependentUpon>TimeViewCell.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModels\TimeCellViewModel.cs" />
     <Compile Include="Models\TimeCellModel.cs" />
@@ -121,6 +108,11 @@
     <Compile Include="ViewModels\NotificationsPageViewModel.cs" />
     <Compile Include="Models\NotificationsPageModel.cs" />
     <Compile Include="SQLiteHelpers\ApiNotifsHelper.cs" />
+    <Compile Include="Infrastructure\TimeTemplateSelector.cs" />
+    <Compile Include="Converters\BreakToColorConverter.cs" />
+    <Compile Include="Converters\DayConverter.cs" />
+    <Compile Include="Converters\IntToStringConverter.cs" />
+    <Compile Include="Models\UserModelJsonUpdate.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -165,6 +157,7 @@
     <Folder Include="ViewCells\" />
     <Folder Include="SQLiteHelpers\" />
     <Folder Include="Data\" />
+    <Folder Include="Converters\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.3.2.127\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.2.127\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />

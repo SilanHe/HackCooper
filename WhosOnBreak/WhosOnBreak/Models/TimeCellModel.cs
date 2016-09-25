@@ -1,4 +1,5 @@
 ﻿using System;
+using Xamarin.Forms;
 namespace WhosOnBreak
 {
 	public class TimeCellModel
@@ -6,7 +7,8 @@ namespace WhosOnBreak
 		public TimeCellModel()
 		{
 		}
-		public string Time { get; set; }
+
+		public double Time { get; set; }
 
 		public bool IsBreak { get; set; }
 

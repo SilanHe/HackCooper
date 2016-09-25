@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:local="clr-namespace:WhosOnBreak;assembly=WhosOnBreak"
+		x:Class="WhosOnBreak.TimeViewCell">
+
+	<StackLayout>
+		<StackLayout.Resources>
+		<ResourceDictionary>
+			<local:BreakToColorConverter x:Key="BreakToColorConverter"/>
+			<local:IntToStringConverter x:Key="IntToStringConverter"/>
+		</ResourceDictionary>
+		</StackLayout.Resources>
+			<Label 
+					Text="{Binding Time, Converter={StaticResource IntToStringConverter}}" 
+					FontSize="Large"
+					TextColor="{Binding IsBreak, Converter={StaticResource BreakToColorConverter}}"
+					BackgroundColor="White"
+					VerticalOptions="Center"
+					HorizontalOptions="Center"/>
+	</StackLayout>
+</ViewCell>
+

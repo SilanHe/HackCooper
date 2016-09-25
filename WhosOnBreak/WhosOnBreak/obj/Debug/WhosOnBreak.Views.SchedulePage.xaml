@@ -5,26 +5,43 @@
 		xmlns:local="clr-namespace:WhosOnBreak;assembly=WhosOnBreak">
 	<ContentPage.Resources>
 		<ResourceDictionary>
-			<local:CellBlockSelector x:Key="CellBlockSelector"/>
+			<local:TimeTemplateSelector x:Key="CellBlockSelector"/>
+			<local:DayConverter x:Key="dayConverter"/>
 		</ResourceDictionary>
 	</ContentPage.Resources>
 
 	<ContentPage.Padding>
 		<OnPlatform x:TypeArguments="Thickness" iOS="0,10,0,10" Android="0,10,0,10" />
 	</ContentPage.Padding>
-
 	<ContentPage.ToolbarItems>
-		<ToolbarItem Text="Save"/>
+		<ToolbarItem Text="Save" Command="{Binding SaveButtonClicked}" />
+
 	</ContentPage.ToolbarItems>
+	<StackLayout>
+		<Grid HorizontalOptions="Center" VerticalOptions="Center">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="4*"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
 
+			<Button Text="&#x21E6;"
+					Command="{Binding BackButtonClicked}" HorizontalOptions="Center" VerticalOptions="End"/>
 
+			<Label Text="{Binding DayOfWeek, Converter={StaticResource dayConverter}}" Grid.Column="1" HorizontalOptions="Center"/>
+
+			<Button Text="&#x21E8;"
+				Command="{Binding NextButtonClicked}" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="End"/>
+
+		</Grid>
 		<ListView
 				x:Name="Schedule"
 				ItemTemplate="{StaticResource CellBlockSelector}"
-				ItemsSource="{Binding Monday}"
+				ItemsSource="{Binding OneDay}"
 				HorizontalOptions="End"
 				>
 		</ListView>
+	</StackLayout>
 	
 
 

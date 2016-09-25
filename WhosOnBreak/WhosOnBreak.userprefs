@@ -1,27 +1,13 @@
 ﻿<Properties StartupConfiguration="{893F5CD0-9F57-460E-B665-EDDAEF0AC90F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WhosOnBreak/Views/NotificationsPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WhosOnBreak/Models/UserModelJson.cs">
     <Files>
-      <File FileName="WhosOnBreak/App.xaml.cs" Line="32" Column="26" />
-      <File FileName="WhosOnBreak/Views/SchedulePage.xaml.cs" Line="25" Column="4" />
-      <File FileName="WhosOnBreak/Views/MainMasterPage.xaml.cs" Line="31" Column="28" />
-      <File FileName="WhosOnBreak/Views/MainMasterDetailPage.xaml.cs" Line="30" Column="45" />
-      <File FileName="Droid/Resources/values/styles.xml" Line="2" Column="1" />
-      <File FileName="WhosOnBreak/Views/FriendsPage.xaml.cs" Line="18" Column="46" />
-      <File FileName="WhosOnBreak/ViewModels/AddFriendViewModel.cs" Line="39" Column="98" />
-      <File FileName="WhosOnBreak/SQLiteHelpers/FriendsRepository.cs" Line="23" Column="8" />
-      <File FileName="WhosOnBreak/ViewModels/FirstTimeLoginViewModel.cs" Line="44" Column="4" />
-      <File FileName="WhosOnBreak/ViewModels/FriendsViewModel.cs" Line="32" Column="43" />
-      <File FileName="WhosOnBreak/SQLiteHelpers/SqlFriendsHelper.cs" Line="9" Column="1" />
-      <File FileName="WhosOnBreak/Models/FriendModel.cs" Line="8" Column="29" />
-      <File FileName="WhosOnBreak/Views/NotificationsPage.xaml.cs" Line="23" Column="45" />
-      <File FileName="WhosOnBreak/ViewModels/NotificationsPageViewModel.cs" Line="20" Column="2" />
-      <File FileName="WhosOnBreak/Models/NotificationsPageModel.cs" Line="7" Column="67" />
+      <File FileName="WhosOnBreak/App.xaml.cs" Line="27" Column="5" />
+      <File FileName="WhosOnBreak/ViewModels/SchedulePageViewModel.cs" Line="140" Column="55" />
+      <File FileName="WhosOnBreak/Models/UserModelJson.cs" Line="1" Column="1" />
+      <File FileName="WhosOnBreak/Data/RestService.cs" Line="107" Column="5" />
       <File FileName="WhosOnBreak/SQLiteHelpers/UserRepository.cs" Line="27" Column="18" />
-      <File FileName="WhosOnBreak/Models/UserModel.cs" Line="21" Column="3" />
-      <File FileName="WhosOnBreak/Models/UserModelJson.cs" Line="19" Column="24" />
-      <File FileName="WhosOnBreak/SQLiteHelpers/ApiNotifsHelper.cs" Line="20" Column="3" />
-      <File FileName="WhosOnBreak/Models/NotifModelJson.cs" Line="1" Column="1" />
-      <File FileName="WhosOnBreak/Data/RestService.cs" Line="146" Column="4" />
+      <File FileName="WhosOnBreak/ViewModels/FirstTimeLoginViewModel.cs" Line="44" Column="4" />
+      <File FileName="WhosOnBreak/Models/UserModelJsonUpdate.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,24 +15,12 @@
           <Node name="WhosOnBreak" expanded="True">
             <Node name="WhosOnBreak" expanded="True">
               <Node name="Data" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="UserModelJson.cs" selected="True" />
+              </Node>
               <Node name="SQLiteHelpers" expanded="True" />
               <Node name="ViewModels" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="FriendsPage.xaml" expanded="True" />
-                <Node name="MainMasterDetailPage.xaml" expanded="True" />
-                <Node name="MainMasterPage.xaml" expanded="True" />
-                <Node name="NotificationsPage.xaml" expanded="True">
-                  <Node name="NotificationsPage.xaml.cs" selected="True" />
-                </Node>
-                <Node name="SchedulePage.xaml" expanded="True" />
-              </Node>
               <Node name="App.xaml" expanded="True" />
-            </Node>
-            <Node name="WhosOnBreak.Droid" expanded="True">
-              <Node name="Resources" expanded="True">
-                <Node name="values" expanded="True" />
-              </Node>
             </Node>
           </Node>
         </State>
