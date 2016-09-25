@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-		x:Class="WhosOnBreak.CommonViewCell">
+		x:Class="WhosOnBreak.BreakViewCell">
 	<ContentView.Content>
 	</ContentView.Content>
 </ContentView>
+
+<Grid>
+	<Grid.RowDefinitions>
+		<RowDefinition Height="25"/>
+	</Grid.RowDefinitions>
+	<Grid.ColumnDefinitions>
+		<ColumnDefinition Width="45" />
+		<ColumnDefinition Width="*" />
+	</Grid.ColumnDefinitions>
+
+	<Label 
+			Grid.Row="0"
+			Grid.Column="0"
+			Text="{Binding Time}" 
+			FontSize="Medium"
+			TextColor="White"/>
+	<Frame
+			Grid.Row="0"
+			Grid.Column="1"
+			OutlineColor="Black"
+			HasShadow="true"
+			Opacity="1"
+			BackgroundColor="Teal"
+			/>
+	
+</Grid>

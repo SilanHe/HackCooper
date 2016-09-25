@@ -3,10 +3,11 @@
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 		xmlns:local="clr-namespace:WhosOnBreak;assembly=WhosOnBreak"
 		x:Class="WhosOnBreak.SchedulePage"
+		
 		Title="{Binding Name}">
 	<ContentPage.Resources>
 		<ResourceDictionary>
-			<local:CellBlock x:Key="CellBlock"/>
+			<local:CellBlockSelector x:Key="CellBlockSelector"/>
 		</ResourceDictionary>
 	</ContentPage.Resources>
 
@@ -21,6 +22,8 @@
 	<RelativeLayout>
 		<ListView
 				x:Name="Schedule"
+				ItemTemplate="{StaticResource CellBlockSelector}"
+				ItemsSource="{Binding Mon}"
 				HorizontalOptions="End"
 				>
 		</ListView>
