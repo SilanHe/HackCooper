@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{893F5CD0-9F57-460E-B665-EDDAEF0AC90F}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="WhosOnBreak/ViewModels/AddFriendViewModel.cs">
     <Files>
       <File FileName="WhosOnBreak/Views/MainMasterPage.xaml.cs" Line="28" Column="7" />
       <File FileName="WhosOnBreak/Infrastructure/MasterPageItem.cs" Line="11" Column="4" />
-      <File FileName="WhosOnBreak/Views/MainMasterDetailPage.xaml.cs" Line="16" Column="3" />
-      <File FileName="WhosOnBreak/App.xaml.cs" Line="23" Column="5" />
+      <File FileName="WhosOnBreak/Views/MainMasterDetailPage.xaml.cs" Line="30" Column="47" />
+      <File FileName="WhosOnBreak/App.xaml.cs" Line="32" Column="26" />
       <File FileName="WhosOnBreak/ViewModels/FirstTimeLoginViewModel.cs" Line="44" Column="4" />
       <File FileName="WhosOnBreak/Views/SchedulePage.xaml.cs" Line="25" Column="4" />
       <File FileName="WhosOnBreak/SQLiteHelpers/UserRepository.cs" Line="27" Column="18" />
@@ -12,11 +12,11 @@
       <File FileName="WhosOnBreak/Data/RestService.cs" Line="146" Column="4" />
       <File FileName="WhosOnBreak/Models/FriendModel.cs" Line="5" Column="24" />
       <File FileName="WhosOnBreak/SQLiteHelpers/FriendsRepository.cs" Line="39" Column="3" />
-      <File FileName="WhosOnBreak/Views/FriendsPage.xaml.cs" Line="18" Column="10" />
+      <File FileName="WhosOnBreak/Views/FriendsPage.xaml.cs" Line="18" Column="46" />
       <File FileName="WhosOnBreak/ViewModels/FriendsViewModel.cs" Line="32" Column="43" />
       <File FileName="WhosOnBreak/Models/FriendsPageModel.cs" Line="8" Column="65" />
       <File FileName="WhosOnBreak/Views/AddFriendPage.xaml.cs" Line="12" Column="48" />
-      <File FileName="WhosOnBreak/ViewModels/AddFriendViewModel.cs" Line="42" Column="1" />
+      <File FileName="WhosOnBreak/ViewModels/AddFriendViewModel.cs" Line="45" Column="1" />
       <File FileName="WhosOnBreak/Models/AddFriendModel.cs" Line="6" Column="33" />
       <File FileName="WhosOnBreak/SQLiteHelpers/SqlFriendsHelper.cs" Line="22" Column="2" />
     </Files>
@@ -29,10 +29,13 @@
               <Node name="Infrastructure" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="SQLiteHelpers" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="FirstTimeLoginViewModel.cs" selected="True" />
+              </Node>
               <Node name="Views" expanded="True">
                 <Node name="AddFriendPage.xaml" expanded="True" />
-                <Node name="FriendsPage.xaml" expanded="True" selected="True" />
+                <Node name="FirstTimeLoginPage.xaml" expanded="True" />
+                <Node name="FriendsPage.xaml" expanded="True" />
                 <Node name="MainMasterDetailPage.xaml" expanded="True" />
                 <Node name="MainMasterPage.xaml" expanded="True" />
                 <Node name="SchedulePage.xaml" expanded="True" />
@@ -51,11 +54,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.WhosOnBreak.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B8448B5D-CA61-4B40-A6EF-C61AAA8E9C52" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/ViewModels/AddFriendViewModel.cs" line="38" column="1" />
-      <Breakpoint file="/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/ViewModels/AddFriendViewModel.cs" line="42" column="1" />
-      <Breakpoint file="/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/ViewModels/AddFriendViewModel.cs" line="41" column="69" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.WhosOnBreak.Droid PreferredExecutionTarget="Android.PBV7N16321022799" />
