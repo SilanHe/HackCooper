@@ -139,24 +139,24 @@ namespace WhosOnBreak
 				case (1):
 					App.dataManager.SaveUserAsync(new UserModelJson { Mon = schedulePageModel.Mon });
 					break;
-				/*case (2):
-					ModifySchedule(OneDay, schedulePageModel.Tue);
+				case (2):
+					App.dataManager.SaveUserAsync(new UserModelJson { Mon = schedulePageModel.Tue });
 					break;
 				case (3):
-					ModifySchedule(OneDay, schedulePageModel.Wed);
+					App.dataManager.SaveUserAsync(new UserModelJson { Mon = schedulePageModel.Wed });
 					break;
 				case (4):
-					ModifySchedule(OneDay, schedulePageModel.Thu);
+					App.dataManager.SaveUserAsync(new UserModelJson { Mon = schedulePageModel.Thu });
 					break;
 				case (5):
-					ModifySchedule(OneDay, schedulePageModel.Fri);
+					App.dataManager.SaveUserAsync(new UserModelJson { Mon = schedulePageModel.Fri });
 					break;
 				case (6):
-					ModifySchedule(OneDay, schedulePageModel.Sat);
+					App.dataManager.SaveUserAsync(new UserModelJson { Mon = schedulePageModel.Sat });
 					break;
 				case (7):
-					ModifySchedule(OneDay, schedulePageModel.Sun);
-					break;*/
+					App.dataManager.SaveUserAsync(new UserModelJson { Mon = schedulePageModel.Sun });
+					break;
 			}
 		}
 

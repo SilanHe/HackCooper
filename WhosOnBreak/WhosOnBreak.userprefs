@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{893F5CD0-9F57-460E-B665-EDDAEF0AC90F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WhosOnBreak/Models/UserModelJson.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WhosOnBreak/ViewModels/SchedulePageViewModel.cs">
     <Files>
       <File FileName="WhosOnBreak/App.xaml.cs" Line="27" Column="5" />
-      <File FileName="WhosOnBreak/ViewModels/SchedulePageViewModel.cs" Line="140" Column="55" />
+      <File FileName="WhosOnBreak/ViewModels/SchedulePageViewModel.cs" Line="158" Column="83" />
       <File FileName="WhosOnBreak/Models/UserModelJson.cs" Line="1" Column="1" />
-      <File FileName="WhosOnBreak/Data/RestService.cs" Line="107" Column="5" />
+      <File FileName="WhosOnBreak/Data/RestService.cs" Line="125" Column="86" />
       <File FileName="WhosOnBreak/SQLiteHelpers/UserRepository.cs" Line="27" Column="18" />
       <File FileName="WhosOnBreak/ViewModels/FirstTimeLoginViewModel.cs" Line="44" Column="4" />
-      <File FileName="WhosOnBreak/Models/UserModelJsonUpdate.cs" Line="1" Column="1" />
+      <File FileName="WhosOnBreak/Models/UserModelJsonUpdate.cs" Line="8" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,11 +15,11 @@
           <Node name="WhosOnBreak" expanded="True">
             <Node name="WhosOnBreak" expanded="True">
               <Node name="Data" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="UserModelJson.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="SQLiteHelpers" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="SchedulePageViewModel.cs" selected="True" />
+              </Node>
               <Node name="App.xaml" expanded="True" />
             </Node>
           </Node>
