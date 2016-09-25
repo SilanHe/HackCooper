@@ -28,11 +28,7 @@ namespace WhosOnBreak
 				return this.breakDataTemplate;
 			else
 				return this.busyDataTemplate;
-			
-				
-				
 		}
-
 		private readonly DataTemplate breakDataTemplate;
 		private readonly DataTemplate commonDataTemplate;
 		private readonly DataTemplate busyDataTemplate;
