@@ -8,7 +8,7 @@ namespace WhosOnBreak
 		{
 			this.timeCellModel = timeCellModel;
 		}
-		public double Time
+		public string Time
 		{
 			get { return timeCellModel.Time;}
 			set{timeCellModel.Time = value; RaisePropertyChanged(); }
