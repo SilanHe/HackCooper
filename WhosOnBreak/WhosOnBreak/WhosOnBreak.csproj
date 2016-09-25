@@ -114,6 +114,7 @@
     <Compile Include="Converters\IntToStringConverter.cs" />
     <Compile Include="Models\UserModelJsonUpdate.cs" />
     <Compile Include="SQLiteHelpers\FriendsScheduleHelper.cs" />
+    <Compile Include="SQLiteHelpers\PersonalScheduleHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

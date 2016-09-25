@@ -1,5 +1,16 @@
 ﻿<Properties StartupConfiguration="{DED46472-5732-4275-B95C-5E6975C034E0}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WhosOnBreak/Views/FriendsPage.xaml.cs">
+    <Files>
+      <File FileName="WhosOnBreak/Views/SchedulePage.xaml.cs" Line="22" Column="5" />
+      <File FileName="WhosOnBreak/ViewModels/SchedulePageViewModel.cs" Line="212" Column="41" />
+      <File FileName="WhosOnBreak/Models/SchedulePageModel.cs" Line="38" Column="8" />
+      <File FileName="WhosOnBreak/SQLiteHelpers/PersonalScheduleHelper.cs" Line="21" Column="1" />
+      <File FileName="WhosOnBreak/SQLiteHelpers/FriendsScheduleHelper.cs" Line="22" Column="1" />
+      <File FileName="WhosOnBreak/Models/UserModelJson.cs" Line="1" Column="1" />
+      <File FileName="WhosOnBreak/ViewModels/FriendsViewModel.cs" Line="26" Column="4" />
+      <File FileName="WhosOnBreak/Views/FriendsPage.xaml.cs" Line="30" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.WhosOnBreak.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CF9726E5-6AE5-4AE8-95C2-CA5085D33CEF" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

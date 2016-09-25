@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:local="clr-namespace:WhosOnBreak;assembly=WhosOnBreak"
 		x:Class="WhosOnBreak.NotificationsPage">
 
+
+		<ContentPage.Resources>
+			<ResourceDictionary>
+				<local:IntToStringConverter x:Key="incCvt"/>
+			</ResourceDictionary>
+		</ContentPage.Resources>
 
 		<ListView
 		ItemsSource="{Binding Notifs}"
@@ -13,7 +20,7 @@
 					<StackLayout Orientation="Horizontal">
 						<Label Text="{Binding NotifBy}"/>
 						<Label Text="@"/>
-						<Label Text="{Binding Time}"/>
+						<Label Text="{Binding Time, Converter={StaticResource incCvt}}"/>
 					</StackLayout>
 				</ViewCell>
 			</DataTemplate>

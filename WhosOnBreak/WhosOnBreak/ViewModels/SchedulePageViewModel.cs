@@ -185,24 +185,31 @@ namespace WhosOnBreak
 			{
 				case (1):
 					App.dataManager.SaveUserAsync(new UserModelJson { Mon = schedulePageModel.Mon });
+					PersonalScheduleHelper.GetMyself();
 					break;
 				case (2):
 					App.dataManager.SaveUserAsync(new UserModelJson { Tue = schedulePageModel.Tue });
+					PersonalScheduleHelper.GetMyself();
 					break;
 				case (3):
 					App.dataManager.SaveUserAsync(new UserModelJson { Wed = schedulePageModel.Wed });
+					PersonalScheduleHelper.GetMyself();
 					break;
 				case (4):
 					App.dataManager.SaveUserAsync(new UserModelJson { Thu = schedulePageModel.Thu });
+					PersonalScheduleHelper.GetMyself();
 					break;
 				case (5):
 					App.dataManager.SaveUserAsync(new UserModelJson { Fri = schedulePageModel.Fri });
+					PersonalScheduleHelper.GetMyself();
 					break;
 				case (6):
 					App.dataManager.SaveUserAsync(new UserModelJson { Sat = schedulePageModel.Sat });
+					PersonalScheduleHelper.GetMyself();
 					break;
 				case (7):
 					App.dataManager.SaveUserAsync(new UserModelJson { Sund = schedulePageModel.Sun });
+					PersonalScheduleHelper.GetMyself();
 					break;
 			}
 		}
