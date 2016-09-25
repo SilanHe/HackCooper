@@ -33,14 +33,14 @@ namespace WhosOnBreak
 
 		public async Task Login()
 		{
-			App.UserRepo.AddNewUser(Name);
-			/*int id = 0;
+			int id = 0;
 			foreach (byte b in System.Text.Encoding.UTF8.GetBytes(Name))
 			{
 				id += b;
 			}
-			await App.dataManager.SaveDeuceAsync(new DeuceModelJson() { Id = id, Name = this.Name, AverageLengthOfDeuce = 0, LongestDeuce = 0, NumberOfDeuces = 0, ShortestDeuce = 0 }, true);*/
-			await WeakFirstTimeLoginPage.Navigation.PushAsync(new SchedulePage());
+			App.UserRepo.AddNewUser(Name, id);
+			await App.dataManager.SaveUserAsync(new UserModelJson { Name = this.Name, Id = id }, true);
+			await WeakFirstTimeLoginPage.Navigation.PushAsync(new MainMasterDetailPage());
 		}
 	}
 }

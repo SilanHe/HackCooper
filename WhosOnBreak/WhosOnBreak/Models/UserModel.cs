@@ -13,6 +13,7 @@ namespace WhosOnBreak
 		[PrimaryKey]
 		public int Id { get; set; }
 		public string Name { get; set; }
+		public int ApiId { get; set; }
 
 		public UserModel()
 		{

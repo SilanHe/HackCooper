@@ -17,14 +17,15 @@ namespace WhosOnBreak
 			conn.CreateTable<UserModel>();
 		}
 
-		public void AddNewUser(string name)
+		public void AddNewUser(string name, int apiId)
 		{
 			if (conn.Table<UserModel>().Count() == 0)
 			{
 				conn.Insert(new UserModel
 				{
 					Id = 1,
-					Name = name
+					Name = name,
+					ApiId = apiId
 				});
 			}
 

@@ -7,21 +7,25 @@ namespace WhosOnBreak
 		//properties
 		public static UserRepository UserRepo { get; private set; }
 		public static DataManager dataManager { get; private set;}
+		public static FriendsRepository FriendsRepo { get; private set; }
 
 		public App(string dbPath)
 		{
 			InitializeComponent();
 
 			dataManager = new DataManager(new RestService());
+
+			//initiliaze repositories
 			UserRepo = new UserRepository(dbPath);
-			UserRepo.ClearUsers();
+			FriendsRepo = new FriendsRepository(dbPath);
+
 			if (UserRepo.GetUser().Name == null)
 			{
 				MainPage = new NavigationPage(new FirstTimeLoginPage());
 			}
 			else
 			{
-				MainPage = new NavigationPage(new SchedulePage());
+				MainPage = new MainMasterDetailPage();
 			}
 		}
 

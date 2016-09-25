@@ -1,29 +1,61 @@
 ﻿<Properties StartupConfiguration="{893F5CD0-9F57-460E-B665-EDDAEF0AC90F}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="WhosOnBreak/Models/SchedulePageModel.cs" Line="32" Column="17" />
-      <File FileName="WhosOnBreak/ViewModels/SchedulePageViewModel.cs" Line="47" Column="1" />
-      <File FileName="iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="WhosOnBreak/Views/SchedulePage.xaml.cs" Line="14" Column="68" />
-      <File FileName="WhosOnBreak/Models/TimeCellModel.cs" Line="16" Column="1" />
-      <File FileName="WhosOnBreak/ViewModels/TimeCellViewModel.cs" Line="14" Column="8" />
-      <File FileName="WhosOnBreak/Infrastructure/CellBlockSelector.cs" Line="28" Column="1" />
-      <File FileName="WhosOnBreak/ViewCells/BreakViewCell.xaml.cs" Line="7" Column="47" />
-      <File FileName="WhosOnBreak/ViewCells/BusyViewCell.xaml.cs" Line="7" Column="46" />
-      <File FileName="WhosOnBreak/ViewCells/CommonViewCell.xaml.cs" Line="6" Column="2" />
-      <File FileName="WhosOnBreak/App.xaml.cs" Line="24" Column="54" />
-      <File FileName="WhosOnBreak/Models/NotifModelJson.cs" Line="1" Column="1" />
-      <File FileName="WhosOnBreak/Models/FirstTimeLoginModel.cs" Line="1" Column="1" />
-      <File FileName="WhosOnBreak/obj/Debug/WhosOnBreak.ViewCells.BreakViewCell.xaml.g.cs" Line="1" Column="1" />
-      <File FileName="WhosOnBreak/obj/Debug/WhosOnBreak.ViewCells.CommonViewCell.xaml.g.cs" Line="1" Column="1" />
-      <File FileName="WhosOnBreak/obj/Debug/WhosOnBreak.ViewCells.BusyViewCell.xaml.g.cs" Line="1" Column="1" />
-      <File FileName="../../../../../Library/Frameworks/Xamarin.Android.framework/Versions/7.0.0-18/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1" Column="1" />
+      <File FileName="WhosOnBreak/Views/MainMasterPage.xaml.cs" Line="28" Column="7" />
+      <File FileName="WhosOnBreak/Infrastructure/MasterPageItem.cs" Line="11" Column="4" />
+      <File FileName="WhosOnBreak/Views/MainMasterDetailPage.xaml.cs" Line="16" Column="3" />
+      <File FileName="WhosOnBreak/App.xaml.cs" Line="23" Column="5" />
+      <File FileName="WhosOnBreak/ViewModels/FirstTimeLoginViewModel.cs" Line="44" Column="4" />
+      <File FileName="WhosOnBreak/Views/SchedulePage.xaml.cs" Line="25" Column="4" />
+      <File FileName="WhosOnBreak/SQLiteHelpers/UserRepository.cs" Line="27" Column="18" />
+      <File FileName="WhosOnBreak/Models/UserModel.cs" Line="21" Column="3" />
+      <File FileName="WhosOnBreak/Data/RestService.cs" Line="146" Column="4" />
+      <File FileName="WhosOnBreak/Models/FriendModel.cs" Line="5" Column="24" />
+      <File FileName="WhosOnBreak/SQLiteHelpers/FriendsRepository.cs" Line="39" Column="3" />
+      <File FileName="WhosOnBreak/Views/FriendsPage.xaml.cs" Line="18" Column="10" />
+      <File FileName="WhosOnBreak/ViewModels/FriendsViewModel.cs" Line="32" Column="43" />
+      <File FileName="WhosOnBreak/Models/FriendsPageModel.cs" Line="8" Column="65" />
+      <File FileName="WhosOnBreak/Views/AddFriendPage.xaml.cs" Line="12" Column="48" />
+      <File FileName="WhosOnBreak/ViewModels/AddFriendViewModel.cs" Line="42" Column="1" />
+      <File FileName="WhosOnBreak/Models/AddFriendModel.cs" Line="6" Column="33" />
+      <File FileName="WhosOnBreak/SQLiteHelpers/SqlFriendsHelper.cs" Line="22" Column="2" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WhosOnBreak" expanded="True">
+            <Node name="WhosOnBreak" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Infrastructure" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="SQLiteHelpers" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="AddFriendPage.xaml" expanded="True" />
+                <Node name="FriendsPage.xaml" expanded="True" selected="True" />
+                <Node name="MainMasterDetailPage.xaml" expanded="True" />
+                <Node name="MainMasterPage.xaml" expanded="True" />
+                <Node name="SchedulePage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="WhosOnBreak.Droid" expanded="True">
+              <Node name="Assets" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.WhosOnBreak.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B8448B5D-CA61-4B40-A6EF-C61AAA8E9C52" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/ViewModels/AddFriendViewModel.cs" line="38" column="1" />
+      <Breakpoint file="/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/ViewModels/AddFriendViewModel.cs" line="42" column="1" />
+      <Breakpoint file="/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/ViewModels/AddFriendViewModel.cs" line="41" column="69" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.WhosOnBreak.Droid PreferredExecutionTarget="Android.PBV7N16321022799" />

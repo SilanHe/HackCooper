@@ -11,7 +11,7 @@ namespace WhosOnBreak
 		{
 			InitializeComponent();
 			BindingContext = new SchedulePageViewModel(this);
-			Title = App.UserRepo.GetUser().Name;//user name or your schedule
+			Title = App.UserRepo.GetUser().Name + App.UserRepo.GetUser().ApiId;//user name or your schedule
 			Schedule.ItemTapped += (object sender, ItemTappedEventArgs e) =>
 			{
 				

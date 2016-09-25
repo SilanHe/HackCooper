@@ -44,6 +44,18 @@
     <EmbeddedResource Include="Views\FirstTimeLoginPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainMasterPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainMasterDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FriendsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AddFriendPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -80,6 +92,26 @@
     <Compile Include="Models\UserModelJson.cs" />
     <Compile Include="Models\NotifModelJson.cs" />
     <Compile Include="Data\DataManager.cs" />
+    <Compile Include="Views\MainMasterPage.xaml.cs">
+      <DependentUpon>MainMasterPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Infrastructure\MasterPageItem.cs" />
+    <Compile Include="Views\MainMasterDetailPage.xaml.cs">
+      <DependentUpon>MainMasterDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FriendModel.cs" />
+    <Compile Include="SQLiteHelpers\FriendsRepository.cs" />
+    <Compile Include="Views\FriendsPage.xaml.cs">
+      <DependentUpon>FriendsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\FriendsViewModel.cs" />
+    <Compile Include="Models\FriendsPageModel.cs" />
+    <Compile Include="Views\AddFriendPage.xaml.cs">
+      <DependentUpon>AddFriendPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\AddFriendViewModel.cs" />
+    <Compile Include="Models\AddFriendModel.cs" />
+    <Compile Include="SQLiteHelpers\SqlFriendsHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
