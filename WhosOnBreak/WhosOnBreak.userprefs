@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{DED46472-5732-4275-B95C-5E6975C034E0}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="WhosOnBreak/Views/SchedulePage.xaml.cs" Line="18" Column="4" />
+      <File FileName="WhosOnBreak/Views/SchedulePage.xaml.cs" Line="18" Column="2" />
       <File FileName="WhosOnBreak/Models/SchedulePageModel.cs" Line="20" Column="15" />
       <File FileName="WhosOnBreak/ViewModels/SchedulePageViewModel.cs" Line="56" Column="16" />
       <File FileName="WhosOnBreak/ViewModels/MainViewModel.cs" Line="15" Column="46" />
@@ -15,7 +15,7 @@
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.WhosOnBreak.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6CF6D9B6-CBB2-4E5C-9171-57C028E9A6A1" />
+  <MonoDevelop.Ide.ItemProperties.WhosOnBreak.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1EDAAD3C-3D92-4A6B-941B-DA8464832C8C" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
