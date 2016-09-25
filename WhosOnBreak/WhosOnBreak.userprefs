@@ -1,16 +1,17 @@
 ﻿<Properties StartupConfiguration="{DED46472-5732-4275-B95C-5E6975C034E0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WhosOnBreak/Models/TimeCellModel.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="WhosOnBreak/Views/SchedulePage.xaml.cs" Line="13" Column="9" />
-      <File FileName="WhosOnBreak/Models/SchedulePageModel.cs" Line="18" Column="1" />
-      <File FileName="WhosOnBreak/ViewModels/SchedulePageViewModel.cs" Line="25" Column="21" />
+      <File FileName="WhosOnBreak/Views/SchedulePage.xaml.cs" Line="18" Column="4" />
+      <File FileName="WhosOnBreak/Models/SchedulePageModel.cs" Line="20" Column="15" />
+      <File FileName="WhosOnBreak/ViewModels/SchedulePageViewModel.cs" Line="56" Column="16" />
       <File FileName="WhosOnBreak/ViewModels/MainViewModel.cs" Line="15" Column="46" />
-      <File FileName="WhosOnBreak/Infrastructure/CellBlockSelector.cs" Line="21" Column="43" />
+      <File FileName="WhosOnBreak/Infrastructure/CellBlockSelector.cs" Line="24" Column="13" />
       <File FileName="WhosOnBreak/ViewCells/BreakViewCell.xaml.cs" Line="1" Column="1" />
       <File FileName="WhosOnBreak/ViewCells/CommonViewCell.xaml.cs" Line="1" Column="1" />
       <File FileName="WhosOnBreak/ViewCells/BusyViewCell.xaml.cs" Line="1" Column="1" />
-      <File FileName="WhosOnBreak/ViewModels/TimeCellViewModel.cs" Line="4" Column="19" />
-      <File FileName="WhosOnBreak/Models/TimeCellModel.cs" Line="10" Column="4" />
+      <File FileName="WhosOnBreak/ViewModels/TimeCellViewModel.cs" Line="14" Column="8" />
+      <File FileName="WhosOnBreak/Models/TimeCellModel.cs" Line="4" Column="28" />
+      <File FileName="WhosOnBreak/App.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

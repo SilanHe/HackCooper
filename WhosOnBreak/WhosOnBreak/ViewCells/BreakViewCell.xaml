@@ -5,3 +5,29 @@
 	<ContentView.Content>
 	</ContentView.Content>
 </ContentView>
+
+<Grid>
+	<Grid.RowDefinitions>
+		<RowDefinition Height="25"/>
+	</Grid.RowDefinitions>
+	<Grid.ColumnDefinitions>
+		<ColumnDefinition Width="45" />
+		<ColumnDefinition Width="*" />
+	</Grid.ColumnDefinitions>
+
+	<Label 
+			Grid.Row="0"
+			Grid.Column="0"
+			Text="{Binding Time}" 
+			FontSize="Medium"
+			TextColor="Black"/>
+	<Frame
+			Grid.Row="0"
+			Grid.Column="1"
+			OutlineColor="Black"
+			HasShadow="true"
+			Opacity="1"
+			BackgroundColor="Green"
+			/>
+	
+</Grid>
