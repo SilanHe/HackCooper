@@ -56,6 +56,9 @@
     <EmbeddedResource Include="Views\AddFriendPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\NotificationsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -112,6 +115,12 @@
     <Compile Include="ViewModels\AddFriendViewModel.cs" />
     <Compile Include="Models\AddFriendModel.cs" />
     <Compile Include="SQLiteHelpers\SqlFriendsHelper.cs" />
+    <Compile Include="Views\NotificationsPage.xaml.cs">
+      <DependentUpon>NotificationsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\NotificationsPageViewModel.cs" />
+    <Compile Include="Models\NotificationsPageModel.cs" />
+    <Compile Include="SQLiteHelpers\ApiNotifsHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

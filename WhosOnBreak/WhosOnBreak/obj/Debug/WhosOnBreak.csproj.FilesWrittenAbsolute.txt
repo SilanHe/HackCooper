@@ -7,6 +7,8 @@
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.FirstTimeLoginPage.xaml
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.MainMasterPage.xaml
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.MainMasterDetailPage.xaml
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.FriendsPage.xaml
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.AddFriendPage.xaml
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.App.xaml.g.cs
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.SchedulePage.xaml.g.cs
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.ViewCells.BreakViewCell.xaml.g.cs
@@ -15,6 +17,8 @@
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.FirstTimeLoginPage.xaml.g.cs
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.MainMasterPage.xaml.g.cs
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.MainMasterDetailPage.xaml.g.cs
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.FriendsPage.xaml.g.cs
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.AddFriendPage.xaml.g.cs
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/WhosOnBreak.dll.mdb
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/WhosOnBreak.dll
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.dll
@@ -29,7 +33,5 @@
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/System.Net.Http.dll
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/System.Net.Http.Extensions.dll
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/System.Net.Http.Primitives.dll
-/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.FriendsPage.xaml
-/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.AddFriendPage.xaml
-/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.FriendsPage.xaml.g.cs
-/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.AddFriendPage.xaml.g.cs
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.NotificationsPage.xaml
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.NotificationsPage.xaml.g.cs

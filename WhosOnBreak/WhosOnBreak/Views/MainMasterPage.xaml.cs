@@ -26,6 +26,11 @@ namespace WhosOnBreak
 				Title = "Friends",
 				TargetType = typeof(FriendsPage)
 			});
+			masterPageItems.Add(new MasterPageItem
+			{
+				Title = "Notifications",
+				TargetType = typeof(NotificationsPage)
+			});
 			listView.ItemsSource = masterPageItems;
 
 		}

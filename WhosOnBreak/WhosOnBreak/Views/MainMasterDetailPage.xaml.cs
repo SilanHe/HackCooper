@@ -27,6 +27,7 @@ namespace WhosOnBreak
 
 		protected override async void OnAppearing()
 		{
+			await ApiNotifsHelper.GetNotifsFromSql();
 			await SqlFriendsHelper.GetFriendsFromSql();
 			base.OnAppearing();
 		}

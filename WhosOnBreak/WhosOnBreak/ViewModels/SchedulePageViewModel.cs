@@ -39,28 +39,40 @@ namespace WhosOnBreak
 			set { schedulePageModel.Monday = value; RaisePropertyChanged();}
 		}
 
-		public void FillDay(ObservableCollection<TimeCellViewModel> daySched,List<double> dayList)
+		public void FillDay(ObservableCollection<TimeCellViewModel> daySched, List<double> dayList)
 		{
 
 			//algorithm to populate the list of timecellviewmodels which are used in the schedule page
-
-			for (int i = 0; i / 2 < 24; i++)
+			string time;
+			int hour;
+			for (double i = 0; i / 2 < 24; i++)
 			{
-				if (dayList.Contains(i / 2))
+				hour = (int)(i / 2);
+				if (((i / 2) % 1).Equals(0.5))
 				{
+					time = hour.ToString() + ":30";
+				}
+				else
+				{
+					time = hour.ToString() + ":00";
+				}
+
+
+				if (dayList.Contains(i / 2))
 					daySched.Add(new TimeCellViewModel(new TimeCellModel())
 					{
-						Time = i / 2,
+
 						IsBreak = true,
-						IsCommon = false
+						IsCommon = false,
+						Time = time
 					});
-				}
+
 				else
 					daySched.Add(new TimeCellViewModel(new TimeCellModel())
 					{
-						Time = i / 2,
 						IsBreak = false,
-						IsCommon = false
+						IsCommon = false,
+						Time = time
 					});
 			}
 		}
