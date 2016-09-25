@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-/Users/silanhe/Projects/CooperHack/WhosOnBreak/Droid/obj/Debug/MonoAndroid,Version=v7.0.AssemblyAttribute.cs
-=======
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/Droid/obj/Debug/MonoAndroid,Version=v6.0.AssemblyAttribute.cs
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/Droid/bin/Debug/WhosOnBreak.Droid.dll.mdb
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/Droid/bin/Debug/WhosOnBreak.Droid.dll
@@ -36,7 +33,6 @@
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/Droid/bin/Debug/SQLitePCLRaw.provider.e_sqlite3.dll
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/Droid/bin/Debug/SQLitePCLRaw.batteries_green.dll
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/Droid/bin/Debug/SQLite-net.dll
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/Droid/bin/Debug/Newtonsoft.Json.dll
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/Droid/bin/Debug/WhosOnBreak.dll
 /Users/michelma/hackcooper/HackCooper/WhosOnBreak/Droid/bin/Debug/WhosOnBreak.dll.mdb
-/Users/michelma/hackcooper/HackCooper/WhosOnBreak/Droid/bin/Debug/Newtonsoft.Json.dll
->>>>>>> 5094106e4d6434eea135c8cd4cf39458f407a821

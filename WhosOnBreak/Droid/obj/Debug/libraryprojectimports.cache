@@ -2,17 +2,16 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-<<<<<<< HEAD
+    <ResolvedResourceDirectory>/Users/michelma/hackcooper/HackCooper/WhosOnBreak/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/michelma/hackcooper/HackCooper/WhosOnBreak/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/michelma/hackcooper/HackCooper/WhosOnBreak/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.core/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/michelma/hackcooper/HackCooper/WhosOnBreak/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.lib.e_sqlite3/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/michelma/hackcooper/HackCooper/WhosOnBreak/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.provider.e_sqlite3/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/michelma/hackcooper/HackCooper/WhosOnBreak/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.batteries_green/library_project_imports/res</ResolvedResourceDirectory>
-=======
-    <ResolvedResourceDirectory>/Users/silanhe/Projects/CooperHack/WhosOnBreak/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/silanhe/Projects/CooperHack/WhosOnBreak/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/res</ResolvedResourceDirectory>
->>>>>>> c049dcffd0ad26a2be0ba4e22238063e9ab56539
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/__library_projects__/SQLitePCLRaw.core/library_project_imports/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/__library_projects__/SQLitePCLRaw.lib.e_sqlite3/library_project_imports/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/__library_projects__/SQLitePCLRaw.provider.e_sqlite3/library_project_imports/assets</ResolvedAssetDirectory>
@@ -20,14 +19,11 @@
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-<<<<<<< HEAD
+    <ResolvedResourceDirectoryStamp>/Users/michelma/hackcooper/HackCooper/WhosOnBreak/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/michelma/hackcooper/HackCooper/WhosOnBreak/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/michelma/hackcooper/HackCooper/WhosOnBreak/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.core.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/michelma/hackcooper/HackCooper/WhosOnBreak/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.lib.e_sqlite3.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/michelma/hackcooper/HackCooper/WhosOnBreak/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.provider.e_sqlite3.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/michelma/hackcooper/HackCooper/WhosOnBreak/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.batteries_green.stamp</ResolvedResourceDirectoryStamp>
-=======
-    <ResolvedResourceDirectoryStamp>/Users/silanhe/Projects/CooperHack/WhosOnBreak/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/silanhe/Projects/CooperHack/WhosOnBreak/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
->>>>>>> c049dcffd0ad26a2be0ba4e22238063e9ab56539
   </ResolvedResourceDirectoryStamps>
 </Paths>

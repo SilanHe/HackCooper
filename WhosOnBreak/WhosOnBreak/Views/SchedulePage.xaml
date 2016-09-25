@@ -2,8 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 		x:Class="WhosOnBreak.SchedulePage"
-		xmlns:local="clr-namespace:WhosOnBreak;assembly=WhosOnBreak"
-		>
+		xmlns:local="clr-namespace:WhosOnBreak;assembly=WhosOnBreak">
 	<ContentPage.Resources>
 		<ResourceDictionary>
 			<local:CellBlockSelector x:Key="CellBlockSelector"/>
@@ -24,7 +23,6 @@
 				ItemTemplate="{StaticResource CellBlockSelector}"
 				ItemsSource="{Binding Monday}"
 				HorizontalOptions="End"
-				ItemTapped="OnItemTapped"
 				>
 		</ListView>
 	

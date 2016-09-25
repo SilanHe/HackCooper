@@ -11,11 +11,16 @@ namespace WhosOnBreak
 		{
 			InitializeComponent();
 			BindingContext = new SchedulePageViewModel(this);
-<<<<<<< HEAD
-			//Title = "";//user name or your schedule
-=======
 			Title = App.UserRepo.GetUser().Name;//user name or your schedule
->>>>>>> 5094106e4d6434eea135c8cd4cf39458f407a821
+			Schedule.ItemTapped += (object sender, ItemTappedEventArgs e) =>
+			{
+				
+				// don't do anything if we just de-selected the row
+				//placeholderfix
+				if (e.Item == null) return;
+				// do something with e.SelectedItem
+				((ListView)sender).SelectedItem = null; // de-select the row
+			};
 
 		}
 	}

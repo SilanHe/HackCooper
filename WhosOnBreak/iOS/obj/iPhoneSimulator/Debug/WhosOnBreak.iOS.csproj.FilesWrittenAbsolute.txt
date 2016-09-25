@@ -11,5 +11,10 @@
 /Users/silanhe/Projects/CooperHack/WhosOnBreak/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
 /Users/silanhe/Projects/CooperHack/WhosOnBreak/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
 /Users/silanhe/Projects/CooperHack/WhosOnBreak/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/silanhe/Projects/CooperHack/WhosOnBreak/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
+/Users/silanhe/Projects/CooperHack/WhosOnBreak/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.sqlite3.dll
+/Users/silanhe/Projects/CooperHack/WhosOnBreak/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/silanhe/Projects/CooperHack/WhosOnBreak/iOS/bin/iPhoneSimulator/Debug/SQLite-net.dll
+/Users/silanhe/Projects/CooperHack/WhosOnBreak/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
 /Users/silanhe/Projects/CooperHack/WhosOnBreak/iOS/bin/iPhoneSimulator/Debug/WhosOnBreak.dll
 /Users/silanhe/Projects/CooperHack/WhosOnBreak/iOS/bin/iPhoneSimulator/Debug/WhosOnBreak.dll.mdb
