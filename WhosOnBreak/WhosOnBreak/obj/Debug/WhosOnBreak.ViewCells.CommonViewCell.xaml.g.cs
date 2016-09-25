@@ -14,7 +14,11 @@ namespace WhosOnBreak {
     using Xamarin.Forms.Xaml;
     
     
+<<<<<<< HEAD
     public partial class CommonViewCell : global::Xamarin.Forms.ViewCell {
+=======
+    public partial class CommonViewCell : global::Xamarin.Forms.ContentView {
+>>>>>>> 5094106e4d6434eea135c8cd4cf39458f407a821
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {

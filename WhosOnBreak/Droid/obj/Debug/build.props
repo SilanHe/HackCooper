@@ -15,5 +15,9 @@ AndroidSequencePointsMode=None
 XamarinAndroidVersion=7.0.0-18
 AndroidManagedSymbols=False
 AndroidUseLatestPlatformSdk=true
+<<<<<<< HEAD
 TargetFrameworkVersion=v7.0
+=======
+TargetFrameworkVersion=v6.0
+>>>>>>> 5094106e4d6434eea135c8cd4cf39458f407a821
 AndroidCreatePackagePerAbi=

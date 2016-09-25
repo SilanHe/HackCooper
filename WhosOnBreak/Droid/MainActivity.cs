@@ -21,8 +21,8 @@ namespace WhosOnBreak.Droid
 			base.OnCreate(bundle);
 
 			global::Xamarin.Forms.Forms.Init(this, bundle);
-
-			LoadApplication(new App());
+			string dbPath = FileAccessHelper.GetLocalFilePath("whosonbreak.db");
+			LoadApplication(new App(dbPath));
 		}
 	}
 }

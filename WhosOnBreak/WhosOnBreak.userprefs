@@ -1,17 +1,19 @@
 ﻿<Properties StartupConfiguration="{DED46472-5732-4275-B95C-5E6975C034E0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WhosOnBreak/App.xaml.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="WhosOnBreak/Models/SchedulePageModel.cs" Line="32" Column="17" />
       <File FileName="WhosOnBreak/ViewModels/SchedulePageViewModel.cs" Line="47" Column="1" />
       <File FileName="iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="WhosOnBreak/Views/SchedulePage.xaml.cs" Line="13" Column="1" />
+      <File FileName="WhosOnBreak/Views/SchedulePage.xaml.cs" Line="16" Column="1" />
       <File FileName="WhosOnBreak/Models/TimeCellModel.cs" Line="16" Column="1" />
       <File FileName="WhosOnBreak/ViewModels/TimeCellViewModel.cs" Line="14" Column="8" />
       <File FileName="WhosOnBreak/Infrastructure/CellBlockSelector.cs" Line="28" Column="1" />
       <File FileName="WhosOnBreak/ViewCells/BreakViewCell.xaml.cs" Line="7" Column="47" />
       <File FileName="WhosOnBreak/ViewCells/BusyViewCell.xaml.cs" Line="7" Column="46" />
       <File FileName="WhosOnBreak/ViewCells/CommonViewCell.xaml.cs" Line="6" Column="2" />
-      <File FileName="WhosOnBreak/App.xaml.cs" Line="11" Column="49" />
+      <File FileName="WhosOnBreak/App.xaml.cs" Line="24" Column="5" />
+      <File FileName="WhosOnBreak/Models/NotifModelJson.cs" Line="1" Column="1" />
+      <File FileName="WhosOnBreak/Models/FirstTimeLoginModel.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -20,5 +22,4 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.WhosOnBreak.Droid PreferredExecutionTarget="Android.9885e650504c303941" />
 </Properties>

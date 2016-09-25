@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <ViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 		x:Class="WhosOnBreak.BusyViewCell">
@@ -12,3 +13,11 @@
 					HorizontalOptions="Center"/>
 </ViewCell>
 
+=======
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="WhosOnBreak.BusyViewCell">
+	<ContentView.Content>
+	</ContentView.Content>
+</ContentView>
+>>>>>>> 5094106e4d6434eea135c8cd4cf39458f407a821

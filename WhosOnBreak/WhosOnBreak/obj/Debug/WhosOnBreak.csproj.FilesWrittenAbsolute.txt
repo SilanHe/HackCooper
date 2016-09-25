@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /Users/silanhe/Projects/CooperHack/WhosOnBreak/WhosOnBreak/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
 /Users/silanhe/Projects/CooperHack/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.App.xaml
 /Users/silanhe/Projects/CooperHack/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.WhosOnBreakPage.xaml
@@ -18,3 +19,34 @@
 /Users/silanhe/Projects/CooperHack/WhosOnBreak/WhosOnBreak/bin/Debug/WhosOnBreak.dll
 /Users/silanhe/Projects/CooperHack/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.dll
 /Users/silanhe/Projects/CooperHack/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.dll.mdb
+=======
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.App.xaml
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.WhosOnBreakPage.xaml
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.SchedulePage.xaml
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.ViewCells.BreakViewCell.xaml
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.ViewCells.CommonViewCell.xaml
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.ViewCells.BusyViewCell.xaml
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.FirstTimeLoginPage.xaml
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.App.xaml.g.cs
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.WhosOnBreakPage.xaml.g.cs
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.SchedulePage.xaml.g.cs
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.ViewCells.BreakViewCell.xaml.g.cs
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.ViewCells.CommonViewCell.xaml.g.cs
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.ViewCells.BusyViewCell.xaml.g.cs
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.FirstTimeLoginPage.xaml.g.cs
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/Xamarin.Forms.Core.dll
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/SQLitePCLRaw.core.dll
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/SQLite-net.dll
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/WhosOnBreak.dll.mdb
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/WhosOnBreak.dll
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.dll
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.dll.mdb
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/Newtonsoft.Json.dll
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/System.Net.Http.dll
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/System.Net.Http.Extensions.dll
+/Users/michelma/hackcooper/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/System.Net.Http.Primitives.dll
+>>>>>>> 5094106e4d6434eea135c8cd4cf39458f407a821
