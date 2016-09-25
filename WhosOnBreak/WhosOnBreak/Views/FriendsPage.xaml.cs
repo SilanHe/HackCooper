@@ -14,6 +14,7 @@ namespace WhosOnBreak
 			ListOfFriends.ItemTapped += (object sender, ItemTappedEventArgs e)=>
 			{
 				var selectedCell = e.Item as FriendsViewModel;
+
 				//FriendsViewModel selectedCell = (FriendsViewModel)e.Item;
 				//UserModelJson test = await App.dataManager.GetUserAsync(App.UserRepo.GetUser().ApiId + "");
 				//UserModelJson friend = await App.dataManager.GetUserAsync(e.item.FriendsId);
