@@ -13,7 +13,7 @@ namespace WhosOnBreak
 
 			InitializeComponent();
 			BindingContext = new SchedulePageViewModel(this);
-			Title = "";//user name or your schedule
+			Title = App.UserRepo.GetUser().Name;//user name or your schedule
 
 		}
 	}

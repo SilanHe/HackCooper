@@ -8,7 +8,8 @@ namespace WhosOnBreak
 		}
 		public float FreePeriod { get; set; }
 
-		public bool IsBreak { get; set;}
+		public bool IsBreak { get; set; }
 
 		public bool IsCommon { get; set; }
+	}
 }

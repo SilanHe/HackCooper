@@ -4,16 +4,28 @@ namespace WhosOnBreak
 {
 	public partial class App : Application
 	{
-		public App()
+		//properties
+		public static UserRepository UserRepo { get; private set; }
+		public static DataManager dataManager { get; private set;}
+
+		public App(string dbPath)
 		{
 			InitializeComponent();
-
-			MainPage = new WhosOnBreakPage();
+			dataManager = new DataManager(new RestService());
+			UserRepo = new UserRepository(dbPath);
+			UserRepo.ClearUsers();
+			if (UserRepo.GetUser().Name == null)
+			{
+				MainPage = new NavigationPage(new FirstTimeLoginPage());
+			}
+			else
+			{
+				MainPage = new SchedulePage();
+			}
 		}
 
 		protected override void OnStart()
 		{
-			// Handle when your app starts
 		}
 
 		protected override void OnSleep()
