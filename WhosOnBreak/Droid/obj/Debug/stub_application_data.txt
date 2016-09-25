@@ -1,2 +1,0 @@
-android.app.Application
-com.guikertest.who_s_on_break

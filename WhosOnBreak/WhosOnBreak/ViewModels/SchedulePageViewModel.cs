@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using Xamarin.Forms;
 using System.Windows.Input;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace WhosOnBreak
 {
@@ -63,23 +64,24 @@ namespace WhosOnBreak
 
 			for (double i = 0; i / 2 < 24; i++)
 			{
-
-				if (dayList.Contains(i / 2))
+				
+				if (dayList.Contains(i/2))
 					daySched.Add(new TimeCellViewModel(new TimeCellModel())
 					{
-
+						Time = (i / 2),
 						IsBreak = true,
-						IsCommon = false,
-						Time = i/2
+						IsCommon = false
+						
 						
 					});
 
 				else
 					daySched.Add(new TimeCellViewModel(new TimeCellModel())
 					{
+						Time = (i / 2),
 						IsBreak = false,
-						IsCommon = false,
-						Time = i/2
+						IsCommon = false
+						
 
 					});
 			}
@@ -140,28 +142,29 @@ namespace WhosOnBreak
 					App.dataManager.SaveUserAsync(new UserModelJson { Mon = schedulePageModel.Mon });
 					break;
 				case (2):
-					App.dataManager.SaveUserAsync(new UserModelJson { Mon = schedulePageModel.Tue });
+					App.dataManager.SaveUserAsync(new UserModelJson { Tue = schedulePageModel.Tue });
 					break;
 				case (3):
-					App.dataManager.SaveUserAsync(new UserModelJson { Mon = schedulePageModel.Wed });
+					App.dataManager.SaveUserAsync(new UserModelJson { Wed = schedulePageModel.Wed });
 					break;
 				case (4):
-					App.dataManager.SaveUserAsync(new UserModelJson { Mon = schedulePageModel.Thu });
+					App.dataManager.SaveUserAsync(new UserModelJson { Thu = schedulePageModel.Thu });
 					break;
 				case (5):
-					App.dataManager.SaveUserAsync(new UserModelJson { Mon = schedulePageModel.Fri });
+					App.dataManager.SaveUserAsync(new UserModelJson { Fri = schedulePageModel.Fri });
 					break;
 				case (6):
-					App.dataManager.SaveUserAsync(new UserModelJson { Mon = schedulePageModel.Sat });
+					App.dataManager.SaveUserAsync(new UserModelJson { Sat = schedulePageModel.Sat });
 					break;
 				case (7):
-					App.dataManager.SaveUserAsync(new UserModelJson { Mon = schedulePageModel.Sun });
+					App.dataManager.SaveUserAsync(new UserModelJson { Sund = schedulePageModel.Sun });
 					break;
 			}
 		}
 
 		public void ModifyDay(int dayOfWeek)
 		{
+			//change the List<>
 			switch (dayOfWeek)
 			{
 				case (1):

@@ -1,14 +1,16 @@
 ﻿using System;
 using Xamarin.Forms;
+using System.Diagnostics;
 namespace WhosOnBreak
 {
 	public class IntToStringConverter : IValueConverter
 	{
 		public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
 		{
+			//convert my int values of time into string to display
 			double time = (double)value;
-			int hour = (int)(time / 2);
-			if (((time / 2) % 1).Equals(0.5))
+			int hour = (int)(time/1);
+			if (((time) % 1.0).Equals(0.5))
 			{
 				return hour.ToString() + ":30";
 			}
