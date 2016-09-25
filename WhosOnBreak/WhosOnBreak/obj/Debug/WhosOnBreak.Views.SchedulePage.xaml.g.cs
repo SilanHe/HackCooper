@@ -17,8 +17,12 @@ namespace WhosOnBreak {
     public partial class SchedulePage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ListView Schedule;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(SchedulePage));
+            Schedule = this.FindByName <global::Xamarin.Forms.ListView>("Schedule");
         }
     }
 }

@@ -4,7 +4,7 @@ using Xamarin.Forms;
 
 namespace WhosOnBreak
 {
-	public partial class CommonViewCell : ContentView
+	public partial class CommonViewCell : ViewCell
 	{
 		public CommonViewCell()
 		{

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 namespace WhosOnBreak
 {
 	public class SchedulePageViewModel:MainViewModel 
@@ -12,6 +13,8 @@ namespace WhosOnBreak
 			//weakreference
 			weakSchedulePage = new WeakReference(schedulePage);
 			schedulePageModel = new SchedulePageModel();
+			Monday = new ObservableCollection<TimeCellViewModel>();
+			FillDay(Monday, schedulePageModel.Mon);
 		}
 
 		public SchedulePage WeakSchedulePage
@@ -29,32 +32,36 @@ namespace WhosOnBreak
 			set { schedulePageModel.Name = value; RaisePropertyChanged();}
 				
 		}
-		private List<TimeCellViewModel> mon;
-		public List<TimeCellViewModel> Mon
+
+		public ObservableCollection<TimeCellViewModel> Monday
 		{
+			get{return schedulePageModel.Monday;}
+			set { schedulePageModel.Monday = value; RaisePropertyChanged();}
+		}
+
+		public void FillDay(ObservableCollection<TimeCellViewModel> daySched,List<double> dayList)
+		{
+
 			//algorithm to populate the list of timecellviewmodels which are used in the schedule page
-			get
+
+			for (int i = 0; i / 2 < 24; i++)
 			{
-
-				for (int i = 0; i / 2 < schedulePageModel.Mon.Capacity; i++)
+				if (dayList.Contains(i / 2))
 				{
-					if (schedulePageModel.Mon.Contains(i / 2))
+					daySched.Add(new TimeCellViewModel(new TimeCellModel())
 					{
-						mon.Add(new TimeCellViewModel(new TimeCellModel())
-						{
-							Time = i / 2,
-							IsBreak = true
-						});
-					}
-					else
-						mon.Add(new TimeCellViewModel(new TimeCellModel())
-						{
-							Time = i / 2,
-							IsBreak = false
-						});
+						Time = i / 2,
+						IsBreak = true,
+						IsCommon = false
+					});
 				}
-				return mon;
-
+				else
+					daySched.Add(new TimeCellViewModel(new TimeCellModel())
+					{
+						Time = i / 2,
+						IsBreak = false,
+						IsCommon = false
+					});
 			}
 		}
 

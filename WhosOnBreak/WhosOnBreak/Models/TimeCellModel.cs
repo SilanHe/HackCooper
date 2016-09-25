@@ -8,7 +8,8 @@ namespace WhosOnBreak
 		}
 		public double Time { get; set; }
 
-		public bool IsBreak { get; set;}
+		public bool IsBreak { get; set; }
 
 		public bool IsCommon { get; set; }
+	}
 }

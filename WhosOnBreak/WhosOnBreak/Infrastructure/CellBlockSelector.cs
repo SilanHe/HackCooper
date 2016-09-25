@@ -16,14 +16,14 @@ namespace WhosOnBreak
 
 		protected override DataTemplate OnSelectTemplate(object item, BindableObject container)
 		{
-			var timeCell = item as TimeCellModel;
+			var timeCell = item as TimeCellViewModel;
 
 			if (timeCell == null)
 				return null;
 			else if (timeCell.IsBreak)
 				return this.breakDataTemplate;
 			else if (timeCell.IsCommon)
-				return this.breakDataTemplate;
+				return this.commonDataTemplate;
 			else
 				return this.busyDataTemplate;
 		}

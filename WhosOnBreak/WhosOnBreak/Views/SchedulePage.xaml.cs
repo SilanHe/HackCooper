@@ -11,7 +11,7 @@ namespace WhosOnBreak
 		{
 			InitializeComponent();
 			BindingContext = new SchedulePageViewModel(this);
-			Title = "";//user name or your schedule
+			//Title = "";//user name or your schedule
 
 		}
 	}

@@ -1,23 +1,24 @@
 ﻿<Properties StartupConfiguration="{DED46472-5732-4275-B95C-5E6975C034E0}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="WhosOnBreak/App.xaml.cs">
     <Files>
-      <File FileName="WhosOnBreak/Views/SchedulePage.xaml.cs" Line="18" Column="2" />
-      <File FileName="WhosOnBreak/Models/SchedulePageModel.cs" Line="20" Column="15" />
-      <File FileName="WhosOnBreak/ViewModels/SchedulePageViewModel.cs" Line="56" Column="16" />
-      <File FileName="WhosOnBreak/ViewModels/MainViewModel.cs" Line="15" Column="46" />
-      <File FileName="WhosOnBreak/Infrastructure/CellBlockSelector.cs" Line="24" Column="13" />
-      <File FileName="WhosOnBreak/ViewCells/BreakViewCell.xaml.cs" Line="1" Column="1" />
-      <File FileName="WhosOnBreak/ViewCells/CommonViewCell.xaml.cs" Line="1" Column="1" />
-      <File FileName="WhosOnBreak/ViewCells/BusyViewCell.xaml.cs" Line="1" Column="1" />
+      <File FileName="WhosOnBreak/Models/SchedulePageModel.cs" Line="32" Column="17" />
+      <File FileName="WhosOnBreak/ViewModels/SchedulePageViewModel.cs" Line="47" Column="1" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="WhosOnBreak/Views/SchedulePage.xaml.cs" Line="13" Column="1" />
+      <File FileName="WhosOnBreak/Models/TimeCellModel.cs" Line="16" Column="1" />
       <File FileName="WhosOnBreak/ViewModels/TimeCellViewModel.cs" Line="14" Column="8" />
-      <File FileName="WhosOnBreak/Models/TimeCellModel.cs" Line="4" Column="28" />
-      <File FileName="WhosOnBreak/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="WhosOnBreak/Infrastructure/CellBlockSelector.cs" Line="28" Column="1" />
+      <File FileName="WhosOnBreak/ViewCells/BreakViewCell.xaml.cs" Line="7" Column="47" />
+      <File FileName="WhosOnBreak/ViewCells/BusyViewCell.xaml.cs" Line="7" Column="46" />
+      <File FileName="WhosOnBreak/ViewCells/CommonViewCell.xaml.cs" Line="6" Column="2" />
+      <File FileName="WhosOnBreak/App.xaml.cs" Line="11" Column="49" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.WhosOnBreak.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1EDAAD3C-3D92-4A6B-941B-DA8464832C8C" />
+  <MonoDevelop.Ide.ItemProperties.WhosOnBreak.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CF9726E5-6AE5-4AE8-95C2-CA5085D33CEF" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WhosOnBreak.Droid PreferredExecutionTarget="Android.9885e650504c303941" />
 </Properties>
