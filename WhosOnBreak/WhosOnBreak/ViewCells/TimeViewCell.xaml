@@ -14,7 +14,7 @@
 			<Label 
 					Text="{Binding Time, Converter={StaticResource IntToStringConverter}}" 
 					FontSize="Large"
-					TextColor="{Binding IsBreak, Converter={StaticResource BreakToColorConverter}}"
+					TextColor="{Binding IsWhat, Converter={StaticResource BreakToColorConverter}}"
 					BackgroundColor="White"
 					VerticalOptions="Center"
 					HorizontalOptions="Center"/>

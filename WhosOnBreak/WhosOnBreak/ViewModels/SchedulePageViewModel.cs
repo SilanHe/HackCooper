@@ -60,11 +60,19 @@ namespace WhosOnBreak
 		{
 
 			//algorithm to populate the list of timecellviewmodels which are used in the schedule page
+			//UserModelJson test = await App.dataManager.GetUserAsync(App.UserRepo.GetUser().ApiId + "");
 
 			for (double i = 0; i / 2 < 24; i++)
 			{
-				
-				if (dayList.Contains(i/2))
+				if (FriendsScheduleHelper.Friend.Mon.Contains(i / 2) && dayList.Contains(i / 2))
+				{
+					daySched.Add(new TimeCellViewModel(new TimeCellModel())
+					{
+						Time = (i / 2),
+						IsBreak = true,
+						IsCommon = true
+					});
+				}else if (dayList.Contains(i/2))
 					daySched.Add(new TimeCellViewModel(new TimeCellModel())
 					{
 						Time = (i / 2),
