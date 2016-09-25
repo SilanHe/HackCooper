@@ -1,4 +1,5 @@
 ﻿using System;
+using Xamarin.Forms;
 namespace WhosOnBreak
 {
 	public class TimeCellViewModel:MainViewModel
@@ -8,7 +9,8 @@ namespace WhosOnBreak
 		{
 			this.timeCellModel = timeCellModel;
 		}
-		public string Time
+
+		public double Time
 		{
 			get { return timeCellModel.Time;}
 			set{timeCellModel.Time = value; RaisePropertyChanged(); }
@@ -29,5 +31,7 @@ namespace WhosOnBreak
 		{
 			get { return !(timeCellModel.IsCommon || timeCellModel.IsBreak);}
 		}
+
+
 	}
 }

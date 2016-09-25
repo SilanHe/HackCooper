@@ -79,3 +79,5 @@
 /Users/silanhe/Projects/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/System.Net.Http.dll
 /Users/silanhe/Projects/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/System.Net.Http.Extensions.dll
 /Users/silanhe/Projects/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/System.Net.Http.Primitives.dll
+/Users/silanhe/Projects/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.ViewCells.TimeViewCell.xaml
+/Users/silanhe/Projects/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.ViewCells.TimeViewCell.xaml.g.cs

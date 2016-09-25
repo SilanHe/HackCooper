@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Windows;
 
 using Xamarin.Forms;
 
@@ -14,10 +15,11 @@ namespace WhosOnBreak
 			Title = App.UserRepo.GetUser().Name;//user name or your schedule
 			Schedule.ItemTapped += (object sender, ItemTappedEventArgs e) =>
 			{
-				
+				TimeCellViewModel selectedCell = (TimeCellViewModel)e.Item;
+				selectedCell.IsBreak = !selectedCell.IsBreak;
 				// don't do anything if we just de-selected the row
 				//placeholderfix
-				if (e.Item == null) return;
+				//if (e.Item == null) return;
 				// do something with e.SelectedItem
 				((ListView)sender).SelectedItem = null; // de-select the row
 			};

@@ -21,7 +21,7 @@ namespace WhosOnBreak
 			}
 			else
 			{
-				MainPage = new NavigationPage(new SchedulePage());
+				MainPage = new SchedulePage();
 			}
 		}
 

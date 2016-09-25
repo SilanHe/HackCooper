@@ -15,23 +15,27 @@ namespace WhosOnBreak
 		public List<double> Sat { get; set; }
 		public List<double> Sun { get; set; }
 
-		public ObservableCollection<TimeCellViewModel> Monday { get; set; }
-		public ObservableCollection<TimeCellViewModel> Tuesday { get; set; }
-		public ObservableCollection<TimeCellViewModel> Wednesday { get; set; }
-		public ObservableCollection<TimeCellViewModel> Thursday { get; set; }
-		public ObservableCollection<TimeCellViewModel> Friday { get; set; }
-		public ObservableCollection<TimeCellViewModel> Saturday { get; set; }
-		public ObservableCollection<TimeCellViewModel> Sunday { get; set; }
-
+		public int DayOfWeek { get; set; }
+		public ObservableCollection<TimeCellViewModel> OneDay { get; set; }
 
 		public SchedulePageModel()
 		{
 			//mock data
 			Mon = new List<double>();
-			Mon.Add(8);
-			Mon.Add(8.5);
-			Mon.Add(13);
-			Mon.Add(13.5);
+			Tue = new List<double>();
+			Wed = new List<double>();
+			Thu = new List<double>();
+			Sat = new List<double>();
+			Sun = new List<double>();
+			Fri = new List<double>();
+			//doesnt exist in 24h so its our default value
+			Mon.Add(25);
+			Tue.Add(25);
+			Wed.Add(25);
+			Thu.Add(25);
+			Fri.Add(25);
+			Sat.Add(25);
+			Sun.Add(25);
 		}
 
 	}
