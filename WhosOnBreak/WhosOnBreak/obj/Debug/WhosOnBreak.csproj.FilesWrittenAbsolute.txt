@@ -17,10 +17,6 @@
 /Users/silanhe/Projects/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.FriendsPage.xaml.g.cs
 /Users/silanhe/Projects/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.AddFriendPage.xaml.g.cs
 /Users/silanhe/Projects/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.Views.NotificationsPage.xaml.g.cs
-/Users/silanhe/Projects/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/WhosOnBreak.dll.mdb
-/Users/silanhe/Projects/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/WhosOnBreak.dll
-/Users/silanhe/Projects/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.dll
-/Users/silanhe/Projects/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.dll.mdb
 /Users/silanhe/Projects/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/Xamarin.Forms.Core.dll
 /Users/silanhe/Projects/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/Xamarin.Forms.Platform.dll
 /Users/silanhe/Projects/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/Xamarin.Forms.Xaml.dll
@@ -31,3 +27,7 @@
 /Users/silanhe/Projects/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/System.Net.Http.dll
 /Users/silanhe/Projects/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/System.Net.Http.Extensions.dll
 /Users/silanhe/Projects/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/System.Net.Http.Primitives.dll
+/Users/silanhe/Projects/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/WhosOnBreak.dll.mdb
+/Users/silanhe/Projects/HackCooper/WhosOnBreak/WhosOnBreak/bin/Debug/WhosOnBreak.dll
+/Users/silanhe/Projects/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.dll
+/Users/silanhe/Projects/HackCooper/WhosOnBreak/WhosOnBreak/obj/Debug/WhosOnBreak.dll.mdb

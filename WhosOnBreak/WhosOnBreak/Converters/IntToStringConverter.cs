@@ -1,6 +1,5 @@
 ﻿using System;
 using Xamarin.Forms;
-using System.Diagnostics;
 namespace WhosOnBreak
 {
 	public class IntToStringConverter : IValueConverter

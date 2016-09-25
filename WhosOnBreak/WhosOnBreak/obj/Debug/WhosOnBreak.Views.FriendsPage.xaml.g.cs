@@ -17,8 +17,12 @@ namespace WhosOnBreak {
     public partial class FriendsPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ListView ListOfFriends;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(FriendsPage));
+            ListOfFriends = this.FindByName <global::Xamarin.Forms.ListView>("ListOfFriends");
         }
     }
 }

@@ -4,7 +4,6 @@ using System.Collections.ObjectModel;
 using Xamarin.Forms;
 using System.Windows.Input;
 using System.Threading.Tasks;
-using System.Diagnostics;
 
 namespace WhosOnBreak
 {

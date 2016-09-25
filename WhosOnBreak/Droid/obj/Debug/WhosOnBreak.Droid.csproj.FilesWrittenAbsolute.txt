@@ -1,1 +1,0 @@
-/Users/silanhe/Projects/HackCooper/WhosOnBreak/Droid/obj/Debug/MonoAndroid,Version=v6.0.AssemblyAttribute.cs

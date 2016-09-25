@@ -12,6 +12,7 @@ namespace WhosOnBreak
 		FriendsPageModel friendsPageModel;
 		public WeakReference weakFriendsPage;
 		public ICommand OnAddFriend { get; set; }
+		public ICommand OnCompareSchedule { get; set; }
 
 		public FriendsViewModel(FriendsPage friendsPage)
 		{
@@ -19,6 +20,7 @@ namespace WhosOnBreak
 			friendsPageModel = new FriendsPageModel();
 			Friends = new ObservableCollection<FriendModel>(SqlFriendsHelper.ListOfFriends);
 			OnAddFriend = new Command(async () => await AddFriend());
+			OnCompareSchedule = new Command(async () => await CompareSchedule());
 		}
 
 		public FriendsPage WeakFriendsPage
@@ -35,6 +37,11 @@ namespace WhosOnBreak
 		public async Task AddFriend()
 		{
 			await WeakFriendsPage.Navigation.PushAsync(new AddFriendPage());
+		}
+
+		public async Task CompareSchedule()
+		{
+			await WeakFriendsPage.Navigation.PushAsync(new SchedulePage());
 		}
 	}
 }
