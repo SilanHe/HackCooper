@@ -11,6 +11,7 @@
 	<ListView
 		x:Name="ListOfFriends"
 		ItemsSource="{Binding Friends}"
+		ItemTapped="OnItemTapped"
 		HorizontalOptions="End">
 		<ListView.ItemTemplate>
 			<DataTemplate>

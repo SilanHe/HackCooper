@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{893F5CD0-9F57-460E-B665-EDDAEF0AC90F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WhosOnBreak/ViewModels/SchedulePageViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WhosOnBreak/SQLiteHelpers/UserRepository.cs">
     <Files>
-      <File FileName="WhosOnBreak/Views/FriendsPage.xaml.cs" Line="20" Column="38" />
-      <File FileName="WhosOnBreak/ViewModels/FriendsViewModel.cs" Line="1" Column="1" />
+      <File FileName="WhosOnBreak/Views/FriendsPage.xaml.cs" Line="30" Column="1" />
+      <File FileName="WhosOnBreak/ViewModels/FriendsViewModel.cs" Line="14" Column="44" />
       <File FileName="WhosOnBreak/Models/FriendModel.cs" Line="11" Column="22" />
       <File FileName="WhosOnBreak/ViewModels/TimeCellViewModel.cs" Line="44" Column="5" />
       <File FileName="WhosOnBreak/ViewModels/SchedulePageViewModel.cs" Line="50" Column="2" />
@@ -18,6 +18,11 @@
       <File FileName="WhosOnBreak/SQLiteHelpers/FriendsScheduleHelper.cs" Line="8" Column="59" />
       <File FileName="WhosOnBreak/obj/Debug/WhosOnBreak.Views.MainMasterDetailPage.xaml.g.cs" Line="24" Column="1" />
       <File FileName="WhosOnBreak/SQLiteHelpers/FriendsRepository.cs" Line="23" Column="8" />
+      <File FileName="WhosOnBreak/Views/SchedulePage.xaml.cs" Line="36" Column="4" />
+      <File FileName="WhosOnBreak/Models/NotifModelJson.cs" Line="1" Column="1" />
+      <File FileName="WhosOnBreak/ViewModels/AddFriendViewModel.cs" Line="38" Column="17" />
+      <File FileName="WhosOnBreak/Views/NotificationsPage.xaml.cs" Line="23" Column="45" />
+      <File FileName="WhosOnBreak/SQLiteHelpers/UserRepository.cs" Line="27" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -28,15 +33,16 @@
               <Node name="Data" expanded="True" />
               <Node name="Infrastructure" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="SQLiteHelpers" expanded="True" />
+              <Node name="SQLiteHelpers" expanded="True">
+                <Node name="UserRepository.cs" selected="True" />
+              </Node>
               <Node name="ViewCells" expanded="True">
                 <Node name="TimeViewCell.xaml" expanded="True" />
               </Node>
-              <Node name="ViewModels" expanded="True">
-                <Node name="SchedulePageViewModel.cs" selected="True" />
-              </Node>
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="FriendsPage.xaml" expanded="True" />
+                <Node name="NotificationsPage.xaml" expanded="True" />
                 <Node name="SchedulePage.xaml" expanded="True" />
               </Node>
               <Node name="App.xaml" expanded="True" />
