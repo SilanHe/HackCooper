@@ -65,7 +65,7 @@ namespace WhosOnBreak
 
 			for (double i = 0; i / 2 < 24; i++)
 			{
-				Debug.WriteLine(FriendList.Contains(i / 2) + " " + dayList.Contains(i / 2));
+				//Debug.WriteLine(FriendList.Contains(i / 2) + " " + dayList.Contains(i / 2));
 				if (FriendList.Contains(i/2) && dayList.Contains(i / 2))
 				{
 					daySched.Add(new TimeCellViewModel(new TimeCellModel())
@@ -121,57 +121,73 @@ namespace WhosOnBreak
 			switch (dayOfWeek)
 			{
 				case (1):
-					
-					if (FriendsScheduleHelper.Friend.Mon !=null)
+
+					if (FriendsScheduleHelper.Friend.Mon != null){
+						
 						friendS = FriendsScheduleHelper.Friend.Mon;
+						friendS.Add(25);
+					}
 					else
 						friendS.Add(25);
 					FillDay(OneDay, schedulePageModel.Mon, friendS);
 					break;
 				case (2):
-					
-					if (FriendsScheduleHelper.Friend.Mon != null)
+
+					if (FriendsScheduleHelper.Friend.Tue != null)
+					{
 						friendS = FriendsScheduleHelper.Friend.Tue;
+						friendS.Add(25);
+					}
 					else
 						friendS.Add(25);
 					FillDay(OneDay, schedulePageModel.Tue, friendS);
 					break;
 				case (3):
-					
-					if (FriendsScheduleHelper.Friend.Mon != null)
+
+					if (FriendsScheduleHelper.Friend.Wed != null)
+					{
 						friendS = FriendsScheduleHelper.Friend.Wed;
+						friendS.Add(25);}
 					else
 						friendS.Add(25);
 					FillDay(OneDay, schedulePageModel.Wed, friendS);
 					break;
 				case (4):
-					
-					if (FriendsScheduleHelper.Friend.Mon != null)
+
+					if (FriendsScheduleHelper.Friend.Thu != null)
+					{
 						friendS = FriendsScheduleHelper.Friend.Thu;
+						friendS.Add(25);}
 					else
 						friendS.Add(25);
 					FillDay(OneDay, schedulePageModel.Thu, friendS);
 					break;
 				case (5):
-					
-					if (FriendsScheduleHelper.Friend.Mon != null)
+
+					if (FriendsScheduleHelper.Friend.Fri != null)
+					{
 						friendS = FriendsScheduleHelper.Friend.Fri;
+						friendS.Add(25);}
 					else
 						friendS.Add(25);
 					FillDay(OneDay, schedulePageModel.Fri, friendS);
 					break;
 				case (6):
-					
-					if (FriendsScheduleHelper.Friend.Mon != null)
+
+					if (FriendsScheduleHelper.Friend.Sat != null)
+					{
 						friendS = FriendsScheduleHelper.Friend.Sat;
+						friendS.Add(25);}
 					else
 						friendS.Add(25);
 					FillDay(OneDay, schedulePageModel.Sat, friendS);
 					break;
 				case (7):
-					
-					if (FriendsScheduleHelper.Friend.Mon != null)
+
+					if (FriendsScheduleHelper.Friend.Sund != null)
+					{
 						friendS = FriendsScheduleHelper.Friend.Sund;
+						friendS.Add(25);}
 					else
 						friendS.Add(25);
 					FillDay(OneDay, schedulePageModel.Sun, friendS);
@@ -184,31 +200,73 @@ namespace WhosOnBreak
 			switch (DayOfWeek)
 			{
 				case (1):
-					App.dataManager.SaveUserAsync(new UserModelJson { Mon = schedulePageModel.Mon });
+					App.dataManager.SaveUserAsync(new UserModelJson { Mon = schedulePageModel.Mon, 
+						Tue = PersonalScheduleHelper.Myself.Tue,
+						Wed = PersonalScheduleHelper.Myself.Wed,
+						Thu = PersonalScheduleHelper.Myself.Thu,
+						Fri = PersonalScheduleHelper.Myself.Fri,
+						Sat = PersonalScheduleHelper.Myself.Sat,
+						Sund = PersonalScheduleHelper.Myself.Sund});
 					PersonalScheduleHelper.GetMyself();
 					break;
 				case (2):
-					App.dataManager.SaveUserAsync(new UserModelJson { Tue = schedulePageModel.Tue });
+					App.dataManager.SaveUserAsync(new UserModelJson { Tue = schedulePageModel.Tue,
+						Mon = PersonalScheduleHelper.Myself.Mon,
+						Wed = PersonalScheduleHelper.Myself.Wed,
+						Thu = PersonalScheduleHelper.Myself.Thu,
+						Fri = PersonalScheduleHelper.Myself.Fri,
+						Sat = PersonalScheduleHelper.Myself.Sat,
+						Sund = PersonalScheduleHelper.Myself.Sund});
 					PersonalScheduleHelper.GetMyself();
 					break;
 				case (3):
-					App.dataManager.SaveUserAsync(new UserModelJson { Wed = schedulePageModel.Wed });
+					App.dataManager.SaveUserAsync(new UserModelJson { Wed = schedulePageModel.Wed,
+						Mon = PersonalScheduleHelper.Myself.Mon,
+						Tue = PersonalScheduleHelper.Myself.Tue,
+						Thu = PersonalScheduleHelper.Myself.Thu,
+						Fri = PersonalScheduleHelper.Myself.Fri,
+						Sat = PersonalScheduleHelper.Myself.Sat,
+						Sund = PersonalScheduleHelper.Myself.Sund});
 					PersonalScheduleHelper.GetMyself();
 					break;
 				case (4):
-					App.dataManager.SaveUserAsync(new UserModelJson { Thu = schedulePageModel.Thu });
+					App.dataManager.SaveUserAsync(new UserModelJson { Thu = schedulePageModel.Thu,
+						Mon = PersonalScheduleHelper.Myself.Mon,
+						Tue = PersonalScheduleHelper.Myself.Tue,
+						Wed = PersonalScheduleHelper.Myself.Wed,
+						Fri = PersonalScheduleHelper.Myself.Fri,
+						Sat = PersonalScheduleHelper.Myself.Sat,
+						Sund = PersonalScheduleHelper.Myself.Sund});
 					PersonalScheduleHelper.GetMyself();
 					break;
 				case (5):
-					App.dataManager.SaveUserAsync(new UserModelJson { Fri = schedulePageModel.Fri });
+					App.dataManager.SaveUserAsync(new UserModelJson { Fri = schedulePageModel.Fri,
+						Tue = PersonalScheduleHelper.Myself.Tue,
+						Wed = PersonalScheduleHelper.Myself.Wed,
+						Thu = PersonalScheduleHelper.Myself.Thu,
+						Mon = PersonalScheduleHelper.Myself.Mon,
+						Sat = PersonalScheduleHelper.Myself.Sat,
+						Sund = PersonalScheduleHelper.Myself.Sund});
 					PersonalScheduleHelper.GetMyself();
 					break;
 				case (6):
-					App.dataManager.SaveUserAsync(new UserModelJson { Sat = schedulePageModel.Sat });
+					App.dataManager.SaveUserAsync(new UserModelJson { Sat = schedulePageModel.Sat,
+						Tue = PersonalScheduleHelper.Myself.Tue,
+						Wed = PersonalScheduleHelper.Myself.Wed,
+						Thu = PersonalScheduleHelper.Myself.Thu,
+						Fri = PersonalScheduleHelper.Myself.Fri,
+						Mon = PersonalScheduleHelper.Myself.Mon,
+						Sund = PersonalScheduleHelper.Myself.Sund});
 					PersonalScheduleHelper.GetMyself();
 					break;
 				case (7):
-					App.dataManager.SaveUserAsync(new UserModelJson { Sund = schedulePageModel.Sun });
+					App.dataManager.SaveUserAsync(new UserModelJson { Sund = schedulePageModel.Sun,
+						Tue = PersonalScheduleHelper.Myself.Tue,
+						Wed = PersonalScheduleHelper.Myself.Wed,
+						Thu = PersonalScheduleHelper.Myself.Thu,
+						Fri = PersonalScheduleHelper.Myself.Fri,
+						Sat = PersonalScheduleHelper.Myself.Sat,
+						Mon = PersonalScheduleHelper.Myself.Mon});
 					PersonalScheduleHelper.GetMyself();
 					break;
 			}

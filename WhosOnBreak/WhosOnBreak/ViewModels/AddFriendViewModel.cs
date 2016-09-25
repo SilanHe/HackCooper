@@ -33,8 +33,6 @@ namespace WhosOnBreak
 		public async Task Add()
 		{
 			UserModelJson user = await App.dataManager.GetUserAsync(Id);
-			await App.FriendsRepo.ClearFriendsAsync();
-			await SqlFriendsHelper.GetFriendsFromSql();
 			System.Diagnostics.Debug.WriteLine(App.dataManager.GetUserAsync(Id));
 			await WeakAddFriendPage.DisplayAlert("Adding a friend", "You are adding: " + user.Name, "ok");
 			if (user.Name == "" || user.Name == null)
