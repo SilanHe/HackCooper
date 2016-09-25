@@ -11,10 +11,7 @@ namespace WhosOnBreak
 		public App(string dbPath)
 		{
 			InitializeComponent();
-<<<<<<< HEAD
 
-			MainPage = new NavigationPage(new SchedulePage());
-=======
 			dataManager = new DataManager(new RestService());
 			UserRepo = new UserRepository(dbPath);
 			UserRepo.ClearUsers();
@@ -24,9 +21,8 @@ namespace WhosOnBreak
 			}
 			else
 			{
-				MainPage = new SchedulePage();
+				MainPage = new NavigationPage(new SchedulePage());
 			}
->>>>>>> 5094106e4d6434eea135c8cd4cf39458f407a821
 		}
 
 		protected override void OnStart()
